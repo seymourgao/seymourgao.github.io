@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://seymourgao.github.io/sitemap.xml
