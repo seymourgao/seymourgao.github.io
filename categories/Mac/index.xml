@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on 不忘初心</title>
+    <link>https://seymourgao.github.io/categories/Mac/</link>
+    <description>Recent content in Mac on 不忘初心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 01 May 2019 18:24:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://seymourgao.github.io/categories/Mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Mac OS 版本信息</title>
+      <link>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</link>
+      <pubDate>Wed, 01 May 2019 18:24:43 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</guid>
+      <description>版本 名称 发布日期 最新版本 Rhapsody Developer Release Grail1Z4 / Titan1U August 31, 1997 DR2 (May 14, 1998) Mac OS X Server 1.0 Hera March 16, 1999 1.2v3 (October 27, 2000) Mac OS X Developer Preview n/a March 16, 1999 DP4 (April 5, 2000) Mac OS X Public Beta Kodiak September 13, 2000 n/a Mac OS X 10.0 Cheetah March 24, 2001 10.0.4</description>
+    </item>
+    
+  </channel>
+</rss>

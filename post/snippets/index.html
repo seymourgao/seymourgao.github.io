@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Git常用命令 - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content=" 常用的Git命令总结，加深记忆学习。
+“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)
+ 中文 | English
+" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/post/snippets/" />
+<link href="/post/snippets/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/snippets/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.06658218.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="Git常用命令" />
+<meta property="og:description" content="
+常用的Git命令总结，加深记忆学习。
+“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)
+
+中文 | English" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/post/snippets/" />
+<meta property="article:published_time" content="2019-05-01T17:25:24+00:00" />
+<meta property="article:modified_time" content="2019-05-01T17:25:24+00:00" />
+<meta itemprop="name" content="Git常用命令">
+<meta itemprop="description" content="
+常用的Git命令总结，加深记忆学习。
+“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)
+
+中文 | English">
+<meta itemprop="datePublished" content="2019-05-01T17:25:24&#43;00:00" />
+<meta itemprop="dateModified" content="2019-05-01T17:25:24&#43;00:00" />
+<meta itemprop="wordCount" content="4011">
+
+
+
+<meta itemprop="keywords" content="git," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git常用命令"/>
+<meta name="twitter:description" content="
+常用的Git命令总结，加深记忆学习。
+“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)
+
+中文 | English"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title="阅读清单">阅读清单</li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title="阅读清单">阅读清单</a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  
+  <header class="post-header">
+    <h1 class="post-title">
+    <a class="post-link" href="/post/snippets/">Git常用命令</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2019-05-01 17:25 </span>
+      <div class="post-category">
+        <a href="/categories/git/"> git </a>
+        </div>
+      <span class="more-meta"> 约 4011 字 </span>
+      <span class="more-meta"> 预计阅读 9 分钟 </span>
+      <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+    </div>
+  </header>
+
+  <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#git常用命令学习">Git常用命令学习</a>
+      <ul>
+        <li><a href="#查看配置">查看配置</a></li>
+        <li><a href="#将本地新建的项目提交到远程仓库的步骤">将本地新建的项目提交到远程仓库的步骤</a></li>
+        <li><a href="#秘钥配置">秘钥配置</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+  <div class="post-content">
+    <blockquote>
+<p>常用的Git命令总结，加深记忆学习。</p>
+<p><em>“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)</em></p>
+</blockquote>
+<p>中文 | <a href="https://git-scm.com/">English</a></p>
+<h2 id="git常用命令学习">Git常用命令学习</h2>
+<h3 id="查看配置">查看配置</h3>
+<p><code>git config</code>
+  <code>git config</code>命令的作用是配置git的相关信息。</p>
+<h4 id="配置全局的用户名和邮箱mac下可通过终端输入命令cat-gitconfig查看配置信息">配置全局的用户名和邮箱，mac下可通过终端输入命令<code>cat ~/.gitconfig</code>查看配置信息。</h4>
+<ul>
+<li>设置用户名：<code>git config --global user.name &quot;name&quot;</code></li>
+<li>设置用户邮箱：<code>git config --global user.email &quot;eamil&quot;</code></li>
+</ul>
+<h4 id="针对单个仓库配置用户名和邮箱mac下可通过终端进入到项目的根目录中然后输入命令cat-gitconfig查看配置信息">针对单个仓库配置用户名和邮箱，mac下可通过终端进入到项目的根目录中，然后输入命令<code>cat .git/config</code>查看配置信息。</h4>
+<ul>
+<li>设置用户名：<code>git config user.name &quot;name&quot;</code></li>
+<li>设置用户邮箱：<code>git config user.email &quot;eamil&quot;</code></li>
+</ul>
+<h4 id="查看git所有配置信息git-config---list">查看git所有配置信息：<code>git config --list</code></h4>
+<h4 id="查看配置的用户名git-config-username">查看配置的用户名：<code>git config user.name</code></h4>
+<h4 id="查看配置的用户邮箱git-config-useremail">查看配置的用户邮箱：<code>git config user.email</code></h4>
+<h4 id="定义命令别名">定义命令别名：</h4>
+<ul>
+<li><code>git config --global alias.st status</code>：则<code>git status</code>可用<code>git st</code>代替</li>
+<li><code>git config --global alias.co checkout</code>：则<code>git checkout</code>可用<code>git co</code>代替</li>
+<li><code>git config --global alias.ci commit</code>：则<code>git commit</code>可用<code>git ci</code>代替</li>
+<li><code>git config --global alias.br branch</code>：则<code>git branch</code>可用<code>git br</code>代替</li>
+</ul>
+<p>也可以自定义其他命令的别名，主要合理且方便操作即可。</p>
+<p><code>git init</code>
+  <code>git init</code>命令的作用是在当前目录中初始化仓库，并且创建一个名为.git的子目录，该目录含有你初始化的Git仓库中所有的必须文件。</p>
+<p><code>git status</code>
+  <code>git status</code>命令的作用是显示文件状态，红色表示工作目录的文件被修改但还没有提交到暂存区，绿色表示已经提交到暂存区。</p>
+<p>以极简的方式显示文件状态：<code>git status -s</code></p>
+<ul>
+<li>A：本地新增的文件（服务器上没有）</li>
+<li>C：文件的一个新拷贝</li>
+<li>D：本地删除的文件（服务器上还在）</li>
+<li>M：红色为修改过未被添加进暂存区的，绿色为已经添加进暂存区的</li>
+<li>R：文件名被修改</li>
+<li>T：文件的类型被修改</li>
+<li>U：文件没有被合并(你需要完成合并才能进行提交)</li>
+<li>X：未知状态(很可能是遇到git的bug了，你可以向git提交bug report)</li>
+<li>?：未被git进行管理，可以使用<code>git add fileName</code>把文件添加进来进行管理</li>
+</ul>
+<p>已经被修改但还没提交到暂存区的文件，可以通过命令<code>git checkout -- fileName</code>撤销更改。</p>
+<p><code>git add</code>
+  <code>git add</code>命令的作用是将文件从工作目录添加至暂存区</p>
+<ol>
+<li>把所有修改的信息添加到暂存区：<code>git add .</code></li>
+<li>把所有跟踪文件中被修改过或已删除的文件信息添加至暂存区：<code>git add -u</code>或<code>git add --update</code>，它不会处理那些没有被跟踪的文件</li>
+<li>把所有跟踪文件中被修改过或已删除文件和所有未跟踪的文件信息添加到暂存区：git add -A或git add &ndash;all</li>
+</ol>
+<p>注意：<code>git add</code> .和<code>git add -A</code>在2.x版本中提交类型方面功能相同，但会因为所在目录不同产生差异：</p>
+<p><code>git add .</code>只会提交当前目录或者子目录下相应文件。
+<code>git add -A</code>无论在哪个目录执行都会提交相应文件。</p>
+<p>已经被提交到暂存区的文件，可以通过命令<code>git reset HEAD -- fileName</code>撤销提交。</p>
+<p><code>git commit</code>
+  <code>git commit</code>命令的作用是将暂存区的修改提交到本地仓库，同时会生成一个commmit-id。</p>
+<ol>
+<li>将暂存区的修改提交到本地仓库：<code>git commit -m &quot;message&quot;</code>，&ldquo;message&quot;是本次提交的简述内容，比如添加新功能或修复bug等</li>
+<li>将本地工作区中修改后还未使用<code>git add .</code>命令添加到暂存区中的文件也提交到本地仓库：<code>git commit –a –m &quot;message&quot;</code>，该命令相当于以下两条命令：
+<code>git add .</code>：把所有修改的信息添加到暂存区
+<code>git add -m &quot;message&quot;</code>：将暂存区的修改提交到本地仓库</li>
+<li>修改最后一次提交（可用于漏掉某个文件的提交或重新编辑信息）：<code>git commit --amend</code></li>
+</ol>
+<p><code>git pull</code>
+  <code>git pull</code>命令的作用是获取远程主机某个分支的更新，再与本地指定分支合并。<code>git pull&lt;远程主机名&gt;&lt;远程分支名&gt;:&lt;本地分支名&gt;</code></p>
+<ol>
+<li>取回远程主机上的dev分支与本地的master分支合并：<code>git pull origin dev:master</code></li>
+<li>取回远程主机上的dev分支与当前分支合并：<code>git pull origin dev</code>，该命令相当于以下两条命令：</li>
+</ol>
+<ul>
+<li><code>git fetch origin</code>：获取远程主机上所有分支的更新，也可以用<code>git fetch origin dev</code>表示获取远程主机上dev分支的更新</li>
+<li><code>git merge origin/dev</code>：当前分支合并dev分支</li>
+</ul>
+<p>注意：通过<code>git fetch</code>所取回的更新，在本地主机上需要用“远程主机名/分支名”的形式读取，比如origin主机的master分支，就需要用<code>origin/master</code>来读取。</p>
+<p><code>git fetch</code>
+  <code>git fetch</code>命令的作用是将远程主机上所有分支的更新取回本地，并记录在<code>.git/FETCH_HEAD</code>中</p>
+<ol>
+<li>获取远程主机上master分支的代码：<code>git fetch origin</code></li>
+<li>在本地新建test分支，并将远程主机上master分支代码下载到本地test分支：<code>git fetch origin master:test</code></li>
+</ol>
+<p><code>git push</code>
+  <code>git push</code>命令的作用是将本地分支的更新推送到远程主机上。</p>
+<ol>
+<li>将本地<code>master</code>分支的更新推送到远程主机上：<code>git push origin master</code></li>
+<li>删除远程dev分支：<code>git push origin --delete dev</code></li>
+</ol>
+<p><code>git branch</code>
+  <code>git branch</code>命令的作用主要是做分支管理操作。</p>
+<ol>
+<li>查看本地分支：<code>git branch</code></li>
+<li>查看本地和远程分支：<code>git branch -a</code></li>
+<li>新建名字为test的分支：<code>git branch test</code></li>
+<li>将test分支名字改为dev：<code>git branch -m test dev</code></li>
+<li>删除名字为dev的分支：<code>git branch -d dev</code></li>
+<li>强制删除名字为dev的分支：<code>git branch -D dev</code></li>
+</ol>
+<p>以上命令都是针对本地仓库操作，不影响远程仓库。</p>
+<p><code>git checkout</code></p>
+<p>  <code>git checkout</code>命令最常用的情形是创建和切换分支以及撤销工作区的修改。</p>
+<ol>
+<li>切换到tag为v1.0.0时对应的代码：<code>git checkout v1.0.0</code></li>
+<li>在tag为v1.0.0的基础上创建分支名为test的分支：<code>git checkout -b test v1.0.0</code>。该命令相当于以下两条命令：</li>
+</ol>
+<ul>
+<li><code>git branch test v1.0.0</code>：在v1.0.0的基础上创建分支test</li>
+<li><code>git checkout v1.0.0</code>：切换到分支test</li>
+</ul>
+<ol start="3">
+<li>把当前目录所有修改的文件从HEAD中移除并且把它恢复成未修改时的样子：<code>git checkout .</code></li>
+<li>撤销工作目录中文件的修改（文件有改动但还未git add）：<code>git checkout -- fileName</code>，或者撤销所有修改使用<code>git checkout .</code></li>
+</ol>
+<p><code>git tag</code>
+  <code>git tag</code>命令主要是对项目标签进行管理。</p>
+<ol>
+<li>查看已有的标签历史记录：<code>git tag</code></li>
+<li>给当前最新的commit打上标签：<code>git tag</code> &lt;标签的定义&gt;</li>
+<li>给对应的commit id打上标签：<code>git tag &lt;标签定义&gt; &lt;commit id&gt;</code></li>
+</ol>
+<p><code>git log</code>
+  <code>git log</code>命令的作用是查看历史提交记录</p>
+<ol>
+<li>查看历史提交记录：<code>git log</code></li>
+<li>将每条历史提交记录展示成一行：<code>git log --oneline</code></li>
+<li>查看某个人的提交记录：<code>git log --author=&quot;name&quot;</code></li>
+<li>显示ASCII图形表示的分支合并历史：<code>git log --graph</code></li>
+<li>显示前n条记录：<code>git log -n</code></li>
+<li>显示某个日期之后的记录：<code>git log --after=&quot;2018-10-1&quot;</code>，包含2018年10月1号的记录</li>
+<li>显示某个日期之前的记录：<code>git log --after=&quot;2018-10-1</code>，包含2018年10月1号的记录</li>
+<li>显示某两个日期之间的记录：<code>git log --after=&quot;2018-10-1&quot; --before=&quot;2018-10-7&quot;</code></li>
+</ol>
+<p><code>git reset</code>
+  <code>git reset</code>命令的作用是撤销暂存区的修改或本地仓库的提交。</p>
+<ol>
+<li>撤销已经提交到暂存区的文件（已经<code>git add</code>但还未<code>git commit</code>）:</li>
+</ol>
+<ul>
+<li>撤销已经提交到暂存区的文件：<code>git reset HEAD fileName</code>或<code>git reset --mixed HEAD fileName</code></li>
+<li>撤销所有提交：<code>git reset HEAD .</code>或<code>git reset --mixed HEAD .</code></li>
+</ul>
+<ol start="2">
+<li>对已经提交到本地仓库做撤销（已经<code>git commit</code>但还未<code>git push</code>）：</li>
+</ol>
+<ul>
+<li>将头指针恢复，已经提交到暂存区以及工作区的内容都不变：<code>git reset --soft commit-id</code>或<code>git reset --soft HEAD~1</code></li>
+<li>将头指针恢复并且撤销暂存区的提交，但是工作区的内容不变：<code>git reset --mixed commit-id</code>或<code>git reset --mixed HEAD~1</code></li>
+<li>将所有内容恢复到指定版本：<code>git reset --hard commit-id</code>或<code>git reset --hard HEAD~1</code></li>
+</ul>
+<p>注意：<code>commit-id</code>可通过<code>git log</code>查看（取前六位即可），<code>HEAD~1</code>表示前一次提交（可以此类推）。</p>
+<p><code>git remote</code>
+  <code>git remote</code>命令的作用主要是管理远程仓库。</p>
+<ol>
+<li>查看关联的远程仓库的名称：<code>git remote</code></li>
+<li>查看关联的远程仓库的详细信息：<code>git remote -v</code></li>
+<li>添加远程仓库的关联：<code>git remote add origin</code> &lt;远程仓库地址&gt;</li>
+<li>删除远程仓库的关联：<code>git remote remove</code> &lt;远程仓库名称&gt;</li>
+<li>修改远程仓库的关联：<code>git remote set-url origin</code> &lt;新的远程仓库地址&gt;</li>
+<li>更新远程仓库的分支：<code>git remote update origin --prune</code></li>
+</ol>
+<p><code>git merge</code>
+  <code>git merge</code>命令的作用主要是分支的合并。</p>
+<p>1：如果当前是master分支，需要合并dev分支：<code>git merge dev</code></p>
+<p><code>git stash</code>
+  <code>git stash</code>命令的作用主要如果当前分支所做的修改你还不想提交，但又需要切换到其他分支去查看，就可以使用<code>git stash</code>保存当前的修改。</p>
+<ol>
+<li>保存当前进度：<code>git stash</code></li>
+<li>查看已经保存的历史记录：<code>git stash list</code></li>
+<li>重新应用某个已经保存的进度，并且删除进度记录：<code>git stash pop</code>&lt;历史进度id&gt;`，</li>
+<li>重新应用某个已经保存的进度，但不删除进度记录：<code>git stash apply &lt;历史进度id&gt;</code>，如果直接使用<code>git stash</code>默认是使用最近的保存</li>
+<li>删除某个历史进度：<code>git stash drop &lt;历史进度id&gt;</code></li>
+<li>删除所有的历史进度：<code>git stash clear</code></li>
+</ol>
+<p><code>gitignore</code>
+  <code>.gitignore</code>文件的作用是忽略那些没必要的提交，比如系统环境或程序运行时产生的文件。GitHub为我们提供了各个语言的gitignore合集<a href="https://github.com/github/gitignore">github/gitignore</a>，其中也包括<a href="https://github.com/github/gitignore/blob/master/Android.gitignore">Android.gitignore</a>。</p>
+<h3 id="将本地新建的项目提交到远程仓库的步骤">将本地新建的项目提交到远程仓库的步骤</h3>
+<ul>
+<li>初始化本地仓库<code>git init</code></li>
+<li>将本地内容添加至git本地暂存区中<code>git add .</code></li>
+<li>将暂存区添加至本地仓库中<code>git commit -m &quot;first commit&quot;</code></li>
+<li>添加远程仓库路径<code>git remote add origin https://github.com/gybguohao/test.git</code></li>
+<li>将本地内容push至远程仓库中<code>git push -u origin master</code></li>
+</ul>
+<h3 id="秘钥配置">秘钥配置</h3>
+<ul>
+<li>
+<p>mac终端查看是否已经存在SSH密钥：<code>cd ~/.ssh</code>，如果没有密钥则不会有此文件夹。</p>
+</li>
+<li>
+<p>生成新的秘钥, 命令如下
+<code>ssh-keygen -t rsa -C &quot;eamil&quot;</code>
+你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，因为这个个Key仅仅用于简单的服务，所以也无需设置密码。</p>
+</li>
+</ul>
+<p>完成后会有如下显示</p>
+<p>Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/gybguohao/.ssh/id_rsa。
+Your public key has been saved in /Users/gybguohao/.ssh/id_rsa.pub。
+The key fingerprint is:
+SHA256:5V6ZCQNS/3bVdl0GjGgQpWMFLazxTslnKbW2B1mbC+E eamil</p>
+<p>如果服务器端需要公钥, 直接复制.ssh目录下的id_rsa.pub内容即可。</p>
+  </div>
+
+  <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">G Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2019-05-01 17:25
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/wechat.png">
+        <span>微信</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/alipay.png">
+        <span>支付宝</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+    <div class="post-tags">
+      <a href="/tags/git/">git</a>
+      </div>
+    <nav class="post-nav">
+      <a class="prev" href="/post/third/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">Excel常用函数（一）</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+      <a class="next" href="/post/awesome-macos-command-line-zh/glossary/">
+        <span class="next-text nav-default"> Mac OS 版本信息</span>
+        <span class="next-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav>
+  </footer>
+  <script src="https://utteranc.es/client.js"
+          repo="seymourgao/blog"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterance.</a></noscript>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.47f727f4.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
