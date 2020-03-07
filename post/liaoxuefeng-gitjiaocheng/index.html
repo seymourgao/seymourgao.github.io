@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Excel常用函数（一） - 不忘初心</title>
+    <title>廖雪峰Git教程总结 - 不忘初心</title>
     <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="G Gao" /><meta name="description" content="Excel函数" /><meta name="keywords" content="python, hugo" />
+<meta name="author" content="G Gao" /><meta name="description" content="廖雪峰Git教程总结" /><meta name="keywords" content="python, hugo" />
 
 
 
@@ -26,9 +26,9 @@
 <meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
 
 
-<link rel="canonical" href="http://seymourgao.github.io/post/third/" />
-<link href="/post/third/" rel="alternate" type="application/rss+xml" title="不忘初心" />
-<link href="/post/third/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="canonical" href="http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/" />
+<link href="/post/liaoxuefeng-gitjiaocheng/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/liaoxuefeng-gitjiaocheng/" rel="feed" type="application/rss+xml" title="不忘初心" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,23 +41,23 @@
 <link rel="stylesheet" href="/css/reset-even.css">
 
 
-<meta property="og:title" content="Excel常用函数（一）" />
-<meta property="og:description" content="Excel函数" />
+<meta property="og:title" content="廖雪峰Git教程总结" />
+<meta property="og:description" content="廖雪峰Git教程总结" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://seymourgao.github.io/post/third/" />
-<meta property="article:published_time" content="2019-11-07T21:39:58+00:00" />
-<meta property="article:modified_time" content="2019-11-07T21:39:58+00:00" />
-<meta itemprop="name" content="Excel常用函数（一）">
-<meta itemprop="description" content="Excel函数">
-<meta itemprop="datePublished" content="2019-11-07T21:39:58&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-07T21:39:58&#43;00:00" />
-<meta itemprop="wordCount" content="886">
+<meta property="og:url" content="http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/" />
+<meta property="article:published_time" content="2020-02-18T22:43:02+00:00" />
+<meta property="article:modified_time" content="2020-02-18T22:43:02+00:00" />
+<meta itemprop="name" content="廖雪峰Git教程总结">
+<meta itemprop="description" content="廖雪峰Git教程总结">
+<meta itemprop="datePublished" content="2020-02-18T22:43:02&#43;00:00" />
+<meta itemprop="dateModified" content="2020-02-18T22:43:02&#43;00:00" />
+<meta itemprop="wordCount" content="1865">
 
 
 
-<meta itemprop="keywords" content="Excel函数," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Excel常用函数（一）"/>
-<meta name="twitter:description" content="Excel函数"/>
+<meta itemprop="keywords" content="Git," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="廖雪峰Git教程总结"/>
+<meta name="twitter:description" content="廖雪峰Git教程总结"/>
 
 </head>
 <body>
@@ -152,14 +152,14 @@
   
   <header class="post-header">
     <h1 class="post-title">
-    <a class="post-link" href="/post/third/">Excel常用函数（一）</a></h1>
+    <a class="post-link" href="/post/liaoxuefeng-gitjiaocheng/">廖雪峰Git教程总结</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-11-07 21:39 </span>
+      <span class="post-time"> 2020-02-18 22:43 </span>
       <div class="post-category">
-        <a href="/categories/Excel%E5%87%BD%E6%95%B0/"> Excel函数 </a>
+        <a href="/categories/Git/"> Git </a>
         </div>
-      <span class="more-meta"> 约 886 字 </span>
-      <span class="more-meta"> 预计阅读 2 分钟 </span>
+      <span class="more-meta"> 约 1865 字 </span>
+      <span class="more-meta"> 预计阅读 4 分钟 </span>
       <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
     </div>
   </header>
@@ -169,13 +169,17 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#廖雪峰git教程总结">廖雪峰Git教程总结</a>
       <ul>
-        <li><a href="#if函数">IF函数</a></li>
-        <li><a href="#ifs函数">IFS函数</a></li>
-        <li><a href="#sunif函数">SUNIF函数</a></li>
-        <li><a href="#countif函数">COUNTIF函数</a></li>
-        <li><a href="#textjoin函数">TEXTJOIN函数</a></li>
+        <li><a href="#安装git">安装Git</a></li>
+        <li><a href="#创建版本库">创建版本库</a></li>
+        <li><a href="#版本回退">版本回退</a></li>
+        <li><a href="#工作区和暂存区">工作区和暂存区</a></li>
+        <li><a href="#撤销修改">撤销修改</a></li>
+        <li><a href="#删除文件">删除文件</a></li>
+        <li><a href="#添加远程库">添加远程库</a></li>
+        <li><a href="#从远程库克隆">从远程库克隆</a></li>
+        <li><a href="#创建与合并分支">创建与合并分支</a></li>
       </ul>
     </li>
   </ul>
@@ -183,31 +187,147 @@
   </div>
 </div>
   <div class="post-content">
-    <p>excel中有很多有用的函数，这里列举几个常用的。</p>
-<h3 id="if函数">IF函数</h3>
-<p>IF 是用的最多的函数，是用来判断条件的语句。使用方法如下</p>
+    <blockquote>
+<p>新冠状病毒继续肆虐，愿所有人平安。</p>
+<p><em>“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)</em></p>
+</blockquote>
+<p><img src="https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg" alt="img" title="img"></p>
+<p>👍🏠🕚😷</p>
+<h2 id="廖雪峰git教程总结">廖雪峰Git教程总结</h2>
+<ol>
+<li>Git 是用 C语言开发的，创建者是linus大神</li>
+<li>分布式版本控制，不用联网，每个人的电脑都是一台服务器，注意对比集中服务器</li>
+</ol>
+<h3 id="安装git">安装Git</h3>
+<ol>
+<li>windows下安装配置，自报家门</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git config --global user.name &#34;Your Name&#34;
+$ git config --global user.email &#34;email@example.com&#34;
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>库/版本库 repository，这个库里的文件都可以被 Git 管理起来</li>
+</ol>
+<h3 id="创建版本库">创建版本库</h3>
+<ol>
+<li>windows建立库</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git init
+Initialized empty Git repository in /Users/michael/learngit/.git/
+</code></pre></td></tr></table>
+</div>
+</div><p>初始化一个Git仓库，使用<code>git init</code>命令。</p>
+<ol start="2">
+<li>添加文件到Git仓库，分两步：</li>
+</ol>
+<ul>
+<li>
+<p>使用命令 <code>git add &lt;file&gt;</code>,可以反复多次使用，添加文件；</p>
+</li>
+<li>
+<p>使用命令 <code>git commit -m &lt;message&gt;</code>,完成。</p>
+<pre><code> 没法跟踪Word文件的改动，视频，图片等二进制文件
+    
+ 使用[Notepad++](http://notepad-plus-plus.org/)代替windows记事本
+</code></pre>
+</li>
+</ul>
+<ol start="3">
+<li>
+<p>使用 <code>git status </code>查看库的状态</p>
+<pre><code>如果`git status`告诉你有文件被修改过，用`git diff`可以查看修改内容。
+</code></pre>
+</li>
+</ol>
+<h3 id="版本回退">版本回退</h3>
+<ul>
+<li>
+<p><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</p>
+</li>
+<li>
+<p>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</p>
+</li>
+<li>
+<p>要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</p>
+</li>
+</ul>
+<p>在Git中，用<code>HEAD</code>表示当前版本，也就是最新的提交<code>1094adb...</code>（注意我的提交ID和你的肯定不一样），上一个版本就是<code>HEAD^</code>，上上一个版本就是<code>HEAD^^</code>，当然往上100个版本写100个<code>^</code>比较容易数不过来，所以写成<code>HEAD~100</code>。</p>
+<p>回退上一个版本：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git reset --hard HEAD^
+HEAD is now at e475afc add distributed
+</code></pre></td></tr></table>
+</div>
+</div><p>回到原来版本：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git reset --hard 1094a
+HEAD is now at 83b0afe append GPL
+</code></pre></td></tr></table>
+</div>
+</div><p><code>1094a</code>这里指版本号，没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号，就无法确定是哪一个了。</p>
+<h3 id="工作区和暂存区">工作区和暂存区</h3>
+<ol>
+<li><code>.git</code>，这个不算工作区，而是Git的版本库</li>
+<li>Git管理的文件分为：<strong>工作区</strong>，<strong>版本库</strong>，版本库又分为<strong>暂存区stage</strong>和<strong>暂存区分支master(仓库)</strong></li>
+</ol>
+<p><strong>工作区&raquo;&raquo;暂存区&raquo;&raquo;仓库</strong></p>
+<p><code>git add</code>把文件从工作区&raquo;&raquo;暂存区，<code>git commit</code>把文件从暂存区&raquo;&raquo;仓库，</p>
+<p><code>git diff</code>查看工作区和暂存区差异，</p>
+<p><code>git diff --cached</code>查看暂存区和仓库差异，</p>
+<p><code>git diff HEAD</code> 查看工作区和仓库的差异，</p>
+<p><code>git add</code>的反向命令<code>git checkout</code>，撤销工作区修改，即把暂存区最新版本转移到工作区，</p>
+<p><code>git commit</code>的反向命令<code>git reset HEAD</code>，就是把仓库最新版本转移到暂存区。</p>
+<h3 id="撤销修改">撤销修改</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IF(判断条件,判断条件为真的返回值,判断条件为假的返回值)
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git checkout -- readme.txt
 </code></pre></td></tr></table>
 </div>
-</div><p>其中第三个参数可以不填，此时就不会返回了。</p>
-<p>判断条件可以通过 大于&gt;、小于&lt;、等于＝，和运算AND、或运算OR、否运算NOT一起配合使用。</p>
-<p>当然还有很多函数的返回值也可以直接嵌入进去使用。</p>
-<h4 id="条件函数的嵌套">条件函数的嵌套</h4>
-<p>有的时候需要更多的分支，此时就需要通过嵌套来实现。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IF(判断条件1,IF(判断条件2,判断条件2为真的返回值,判断条件2为假的返回值),判断条件1为假的返回值)
-</code></pre></td></tr></table>
-</div>
-</div><p>这个结构如果用伪代码来表达，大概是这样的：</p>
+</div><p>命令<code>git checkout -- readme.txt</code>意思就是，把<code>readme.txt</code>文件在工作区的修改全部撤销，这里有两种情况：</p>
+<ul>
+<li>
+<p><code>readme.txt</code>自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；</p>
+</li>
+<li>
+<p><code>readme.txt</code>已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
+</li>
+</ul>
+<p>总之，就是让这个文件回到最近一次<code>git commit</code>或<code>git add</code>时的状态。</p>
+<h4 id="本节小结">本节小结：</h4>
+<p>1.没有<code>git add</code>时，用<code>git checkout -- file</code></p>
+<p>2.已经<code>git add</code>时，先<code>git reset HEAD </code>回退到1.，再按1.操作</p>
+<p>3.已经<code>git commit</code>时，用<code>git reset</code>回退版本</p>
+<p>4.推送到远程库，GG?</p>
+<h3 id="删除文件">删除文件</h3>
+<ol>
+<li>命令<code>git rm</code>删除一个文件，并且<code>git commit</code>：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -217,89 +337,57 @@
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">if</span><span class="p">(</span><span class="nx">判断条件1</span><span class="p">){</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">判断条件2</span><span class="p">){</span>
-        <span class="k">return</span> <span class="nx">判断条件2为真的返回值</span>
-    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
-        <span class="k">return</span> <span class="nx">判断条件2为假的返回值</span>
-    <span class="p">}</span>
-<span class="p">}</span><span class="k">else</span><span class="p">{</span>
-    <span class="nx">判断条件1为假的返回值</span>
-<span class="p">}</span>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git rm test.txt
+rm &#39;test.txt&#39;
+
+$ git commit -m &#34;remove test.txt&#34;
+[master d46f35e] remove test.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 test.txt
 </code></pre></td></tr></table>
 </div>
-</div><p>同理，你也可以把嵌套写很多层，但结果就是公式又臭又长，无法阅读。</p>
-<h3 id="ifs函数">IFS函数</h3>
-<p>IFS其实有点像其他语言中的switch结构，通过多个判断条件来返回不同的值。</p>
+</div><ol start="2">
+<li>另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本：</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IFS(判断条件1,判断条件1为真的返回值,判断条件2,判断条件2为真的返回值,判断条件3,判断条件3为真的返回值......)
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git checkout -- test.txt
 </code></pre></td></tr></table>
 </div>
-</div><p>这个结构如果用伪代码来表达，大概是这样的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">switch</span> <span class="p">(</span><span class="kc">true</span><span class="p">){</span>
-    <span class="k">case</span> <span class="nx">判断条件1</span><span class="o">:</span>
-        <span class="k">return</span> <span class="nx">判断条件1为真的返回值</span><span class="p">;</span>
-        <span class="k">break</span><span class="p">;</span>
-    <span class="k">case</span> <span class="nx">判断条件2</span><span class="o">:</span>
-        <span class="k">return</span> <span class="nx">判断条件2为真的返回值</span><span class="p">;</span>
-        <span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="sunif函数">SUNIF函数</h3>
-<p>如果需要条件求和，你就需要这个函数了。</p>
+</div><h3 id="添加远程库">添加远程库</h3>
+<p>本地Git仓库和github上的仓库进行同步</p>
+<p>在本地的<code>learngit</code>仓库下运行命令：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= SUMIF(求和区域,判断条件)
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git remote add origin git@github.com:michaelliao/learngit.git
 </code></pre></td></tr></table>
 </div>
-</div><p>如果要加上更多的判断条件，可以使用SUMIFS函数。</p>
-<h3 id="countif函数">COUNTIF函数</h3>
-<p>COUNTIF函数的含义是条件计数。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= COUNTIF(计数区域,判断条件)
-</code></pre></td></tr></table>
-</div>
-</div><p>如果要加上更多的判断条件，可以使用COUNTIFS函数。</p>
-<h3 id="textjoin函数">TEXTJOIN函数</h3>
-<p>作用是连接多个区域的文本，而且可以插入指定的分隔符</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= TEXTJOIN(分隔符,是否忽略空白格,文本区域)
-</code></pre></td></tr></table>
-</div>
-</div><p>一个比较有用的场景是，如果要连接多格子的数据组成csv的行，可以用<code>TEXTJOIN(&quot;,&quot;,FALSE,文本区域)</code>进行连接。</p>
-<p>这里面使用FALSE是因为不能忽略空白格，否则会错乱。</p>
+</div><p>本地<code>learngit</code>库就关联<code>github</code>远程库（上面的<code>michaelliao</code>替换成你自己的GitHub账户名）</p>
+<h4 id="小结">小结：</h4>
+<ol>
+<li>
+<p>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</p>
+</li>
+<li>
+<p>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</p>
+</li>
+<li>
+<p>此后，每次本地提交后，只要有必要，就可以使用命令<code>git push origin master</code>推送最新修改；</p>
+</li>
+</ol>
+<h3 id="从远程库克隆">从远程库克隆</h3>
+<p>要克隆一个仓库，首先必须知道仓库的地址，然后使用<code>git clone</code>命令克隆。</p>
+<p>Git支持多种协议，包括<code>https</code>，但通过<code>ssh</code>支持的原生<code>git</code>协议速度最快。</p>
+<h3 id="创建与合并分支">创建与合并分支</h3>
+<p>未完待续。。。</p>
   </div>
 
   <div class="post-copyright">
@@ -310,7 +398,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-11-07 21:39
+        2020-02-18 22:43
         
     </span>
   </p>
@@ -333,16 +421,12 @@
   </div>
 </div><footer class="post-footer">
     <div class="post-tags">
-      <a href="/tags/Excel%E5%87%BD%E6%95%B0/">Excel函数</a>
+      <a href="/tags/Git/">Git</a>
       </div>
     <nav class="post-nav">
-      <a class="prev" href="/post/four/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text nav-default">Python 批量合并 Excel 文件</span>
-        <span class="prev-text nav-mobile">上一篇</span>
-      </a>
-      <a class="next" href="/post/snippets/">
-        <span class="next-text nav-default">Git常用命令</span>
+      
+      <a class="next" href="/post/2019/%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E8%A7%A3%E9%87%8A%E7%AC%AC13%E5%8F%B7/">
+        <span class="next-text nav-default">企业会计准则解释第13号</span>
         <span class="next-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
       </a>

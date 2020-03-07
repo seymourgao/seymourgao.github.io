@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excel函数 on 不忘初心</title>
-    <link>https://seymourgao.github.io/categories/Excel%E5%87%BD%E6%95%B0/</link>
+    <link>http://seymourgao.github.io/categories/Excel%E5%87%BD%E6%95%B0/</link>
     <description>Recent content in Excel函数 on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 07 Nov 2019 21:39:58 +0000</lastBuildDate>
     
-	<atom:link href="https://seymourgao.github.io/categories/Excel%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://seymourgao.github.io/categories/Excel%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Excel常用函数（一）</title>
-      <link>https://seymourgao.github.io/post/third/</link>
+      <link>http://seymourgao.github.io/post/third/</link>
       <pubDate>Thu, 07 Nov 2019 21:39:58 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/third/</guid>
+      <guid>http://seymourgao.github.io/post/third/</guid>
       <description>&lt;p&gt;excel中有很多有用的函数，这里列举几个常用的。&lt;/p&gt;</description>
     </item>
     

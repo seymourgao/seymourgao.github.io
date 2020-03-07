@@ -2,21 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>不忘初心</title>
-    <link>https://seymourgao.github.io/</link>
+    <link>http://seymourgao.github.io/</link>
     <description>Recent content on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 24 Apr 2019 22:25:24 +0000</lastBuildDate>
     
-	<atom:link href="https://seymourgao.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://seymourgao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>廖雪峰Git教程总结</title>
+      <link>http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/</link>
+      <pubDate>Tue, 18 Feb 2020 22:43:02 +0000</pubDate>
+      
+      <guid>http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;新冠状病毒继续肆虐，愿所有人平安。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/small/006SToa6ly1fm07summ2gj30qo0qomzu.jpg&#34; alt=&#34;img&#34; title=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;👍🏠🕚😷&lt;/p&gt;
+&lt;h2 id=&#34;廖雪峰git教程总结&#34;&gt;廖雪峰Git教程总结&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Git 是用 C语言开发的，创建者是linus大神&lt;/li&gt;
+&lt;li&gt;分布式版本控制，不用联网，每个人的电脑都是一台服务器，注意对比集中服务器&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;安装git&#34;&gt;安装Git&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;windows下安装配置，自报家门&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;$ git config --global user.name &amp;#34;Your Name&amp;#34;
+$ git config --global user.email &amp;#34;email@example.com&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;库/版本库 repository，这个库里的文件都可以被 Git 管理起来&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
       <title>企业会计准则解释第13号</title>
-      <link>https://seymourgao.github.io/post/2019/%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E8%A7%A3%E9%87%8A%E7%AC%AC13%E5%8F%B7/</link>
+      <link>http://seymourgao.github.io/post/2019/%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E8%A7%A3%E9%87%8A%E7%AC%AC13%E5%8F%B7/</link>
       <pubDate>Wed, 25 Dec 2019 15:58:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2019/%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E8%A7%A3%E9%87%8A%E7%AC%AC13%E5%8F%B7/</guid>
+      <guid>http://seymourgao.github.io/post/2019/%E4%BC%81%E4%B8%9A%E4%BC%9A%E8%AE%A1%E5%87%86%E5%88%99%E8%A7%A3%E9%87%8A%E7%AC%AC13%E5%8F%B7/</guid>
       <description>&lt;p&gt;财政部颁发新的解释，一起来学习一下。&lt;/p&gt;
 &lt;h2 id=&#34;企业会计准则解释第13号&#34;&gt;企业会计准则解释第13号&lt;/h2&gt;
 &lt;hr&gt;
@@ -29,10 +65,10 @@
     
     <item>
       <title>Python 批量合并 Excel 文件</title>
-      <link>https://seymourgao.github.io/post/four/</link>
+      <link>http://seymourgao.github.io/post/four/</link>
       <pubDate>Fri, 15 Nov 2019 13:01:46 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/four/</guid>
+      <guid>http://seymourgao.github.io/post/four/</guid>
       <description>&lt;h2 id=&#34;python合并处理excel&#34;&gt;python合并处理excel&lt;/h2&gt;
 &lt;p&gt;工作中经常需要批量处理excel文件，思考是否可以用Python来提高工作效率呢？&lt;/p&gt;
 &lt;p&gt;每天都会收到一个项目的数据日报，然后我需要将这些日报和之前的历史数据进行合并。更复杂的情况是，每个日报都不止一个sheet，如果手工复制的话，一个文件就需要复制三遍。&lt;/p&gt;
@@ -41,19 +77,19 @@
     
     <item>
       <title>Excel常用函数（一）</title>
-      <link>https://seymourgao.github.io/post/third/</link>
+      <link>http://seymourgao.github.io/post/third/</link>
       <pubDate>Thu, 07 Nov 2019 21:39:58 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/third/</guid>
+      <guid>http://seymourgao.github.io/post/third/</guid>
       <description>&lt;p&gt;excel中有很多有用的函数，这里列举几个常用的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git常用命令</title>
-      <link>https://seymourgao.github.io/post/snippets/</link>
+      <link>http://seymourgao.github.io/post/snippets/</link>
       <pubDate>Wed, 01 May 2019 17:25:24 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/snippets/</guid>
+      <guid>http://seymourgao.github.io/post/snippets/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;常用的Git命令总结，加深记忆学习。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)&lt;/em&gt;&lt;/p&gt;
@@ -63,28 +99,28 @@
     
     <item>
       <title> Mac OS 版本信息</title>
-      <link>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</link>
+      <link>http://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</link>
       <pubDate>Wed, 01 May 2019 18:24:43 +0800</pubDate>
       
-      <guid>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</guid>
+      <guid>http://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</guid>
       <description>版本 名称 发布日期 最新版本 Rhapsody Developer Release Grail1Z4 / Titan1U August 31, 1997 DR2 (May 14, 1998) Mac OS X Server 1.0 Hera March 16, 1999 1.2v3 (October 27, 2000) Mac OS X Developer Preview n/a March 16, 1999 DP4 (April 5, 2000) Mac OS X Public Beta Kodiak September 13, 2000 n/a Mac OS X 10.0 Cheetah March 24, 2001 10.0.4</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://seymourgao.github.io/about/</link>
+      <link>http://seymourgao.github.io/about/</link>
       <pubDate>Wed, 24 Apr 2019 22:25:24 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/about/</guid>
+      <guid>http://seymourgao.github.io/about/</guid>
       <description>热爱技术的审计民工。</description>
     </item>
     
     <item>
       <title>会计监管风险提示第8号—商誉减值</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</link>
       <pubDate>Sun, 30 Dec 2018 23:11:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</guid>
       <description>&lt;h2 id=&#34;会计监管风险提示第8号商誉减值&#34;&gt;&lt;strong&gt;会计监管风险提示第8号——商誉减值&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2018-11-16&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -96,10 +132,10 @@
     
     <item>
       <title>如何理解递延所得税资产</title>
-      <link>https://seymourgao.github.io/post/2018/2018-07-01-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%80%92%E5%BB%B6%E6%89%80%E5%BE%97%E7%A8%8E%E8%B5%84%E4%BA%A7/</link>
+      <link>http://seymourgao.github.io/post/2018/2018-07-01-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%80%92%E5%BB%B6%E6%89%80%E5%BE%97%E7%A8%8E%E8%B5%84%E4%BA%A7/</link>
       <pubDate>Sun, 01 Jul 2018 15:37:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2018/2018-07-01-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%80%92%E5%BB%B6%E6%89%80%E5%BE%97%E7%A8%8E%E8%B5%84%E4%BA%A7/</guid>
+      <guid>http://seymourgao.github.io/post/2018/2018-07-01-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E9%80%92%E5%BB%B6%E6%89%80%E5%BE%97%E7%A8%8E%E8%B5%84%E4%BA%A7/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;工作日常总结&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -114,10 +150,10 @@
     
     <item>
       <title>会计监管风险提示第7号—轻资产类公司收益法评估</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/</link>
       <pubDate>Wed, 18 Apr 2018 22:01:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/</guid>
       <description>&lt;h3 id=&#34;会计监管风险提示第7号轻资产类公司收益法评估&#34;&gt;会计监管风险提示第7号——轻资产类公司收益法评估&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2017-06-05&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -128,10 +164,10 @@
     
     <item>
       <title>如何寻找财政部会计政策</title>
-      <link>https://seymourgao.github.io/post/2017/2017-09-07%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E8%B4%A2%E6%94%BF%E9%83%A8%E4%BC%9A%E8%AE%A1%E6%94%BF%E7%AD%96/</link>
+      <link>http://seymourgao.github.io/post/2017/2017-09-07%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E8%B4%A2%E6%94%BF%E9%83%A8%E4%BC%9A%E8%AE%A1%E6%94%BF%E7%AD%96/</link>
       <pubDate>Thu, 07 Sep 2017 21:37:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2017/2017-09-07%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E8%B4%A2%E6%94%BF%E9%83%A8%E4%BC%9A%E8%AE%A1%E6%94%BF%E7%AD%96/</guid>
+      <guid>http://seymourgao.github.io/post/2017/2017-09-07%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E8%B4%A2%E6%94%BF%E9%83%A8%E4%BC%9A%E8%AE%A1%E6%94%BF%E7%AD%96/</guid>
       <description>&lt;h2 id=&#34;财政部会计政策发布&#34;&gt;&lt;strong&gt;财政部会计政策发布&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;标签：会计&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kjs.mof.gov.cn/zhengwuxinxi/zhengcefabu/&#34;&gt;财政部会计政策发布&lt;/a&gt;&lt;/p&gt;
@@ -140,10 +176,10 @@
     
     <item>
       <title>会计监管风险提示第4号—首次公开发行股票公司审计</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC4%E5%8F%B7%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC4%E5%8F%B7%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</link>
       <pubDate>Thu, 08 Jun 2017 20:09:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC4%E5%8F%B7%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC4%E5%8F%B7%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%E5%8F%91%E8%A1%8C%E8%82%A1%E7%A5%A8%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</guid>
       <description>&lt;h2 id=&#34;会计监管风险提示第4号首次公开发行股票公司审计&#34;&gt;会计监管风险提示第4号——首次公开发行股票公司审计&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2015-05-19&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -154,10 +190,10 @@
     
     <item>
       <title>会计监管风险提示第5号—上市公司股权交易资产评估</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC5%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E6%9D%83%E4%BA%A4%E6%98%93%E8%B5%84%E4%BA%A7%E8%AF%84%E4%BC%B0/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC5%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E6%9D%83%E4%BA%A4%E6%98%93%E8%B5%84%E4%BA%A7%E8%AF%84%E4%BC%B0/</link>
       <pubDate>Thu, 08 Jun 2017 20:09:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC5%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E6%9D%83%E4%BA%A4%E6%98%93%E8%B5%84%E4%BA%A7%E8%AF%84%E4%BC%B0/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC5%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E8%82%A1%E6%9D%83%E4%BA%A4%E6%98%93%E8%B5%84%E4%BA%A7%E8%AF%84%E4%BC%B0/</guid>
       <description>&lt;h2 id=&#34;会计监管风险提示第5号上市公司股权交易资产评估&#34;&gt;会计监管风险提示第5号——上市公司股权交易资产评估&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2015-05-19&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -169,10 +205,10 @@
     
     <item>
       <title>会计监管风险提示第3号—审计项目复核</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC3%E5%8F%B7%E5%AE%A1%E8%AE%A1%E9%A1%B9%E7%9B%AE%E5%A4%8D%E6%A0%B8/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC3%E5%8F%B7%E5%AE%A1%E8%AE%A1%E9%A1%B9%E7%9B%AE%E5%A4%8D%E6%A0%B8/</link>
       <pubDate>Mon, 08 May 2017 22:37:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC3%E5%8F%B7%E5%AE%A1%E8%AE%A1%E9%A1%B9%E7%9B%AE%E5%A4%8D%E6%A0%B8/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC3%E5%8F%B7%E5%AE%A1%E8%AE%A1%E9%A1%B9%E7%9B%AE%E5%A4%8D%E6%A0%B8/</guid>
       <description>&lt;h3 id=&#34;会计监管风险提示第3号审计项目复核&#34;&gt;会计监管风险提示第3号—审计项目复核&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：：2015-05-19&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -183,10 +219,10 @@
     
     <item>
       <title>会计监管风险提示第6号—新三板挂牌公司审计</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC6%E5%8F%B7%E6%96%B0%E4%B8%89%E6%9D%BF%E6%8C%82%E7%89%8C%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC6%E5%8F%B7%E6%96%B0%E4%B8%89%E6%9D%BF%E6%8C%82%E7%89%8C%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</link>
       <pubDate>Mon, 08 May 2017 22:37:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC6%E5%8F%B7%E6%96%B0%E4%B8%89%E6%9D%BF%E6%8C%82%E7%89%8C%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC6%E5%8F%B7%E6%96%B0%E4%B8%89%E6%9D%BF%E6%8C%82%E7%89%8C%E5%85%AC%E5%8F%B8%E5%AE%A1%E8%AE%A1/</guid>
       <description>&lt;h3 id=&#34;会计监管风险提示第6号新三板挂牌公司审计&#34;&gt;会计监管风险提示第6号——新三板挂牌公司审计&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2017-06-05&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -197,10 +233,10 @@
     
     <item>
       <title>会计监管风险提示第2号—通过未披露关联方实施的舞弊风险</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC2%E5%8F%B7%E9%80%9A%E8%BF%87%E6%9C%AA%E6%8A%AB%E9%9C%B2%E5%85%B3%E8%81%94%E6%96%B9%E5%AE%9E%E6%96%BD%E7%9A%84%E8%88%9E%E5%BC%8A%E9%A3%8E%E9%99%A9/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC2%E5%8F%B7%E9%80%9A%E8%BF%87%E6%9C%AA%E6%8A%AB%E9%9C%B2%E5%85%B3%E8%81%94%E6%96%B9%E5%AE%9E%E6%96%BD%E7%9A%84%E8%88%9E%E5%BC%8A%E9%A3%8E%E9%99%A9/</link>
       <pubDate>Mon, 08 May 2017 20:11:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC2%E5%8F%B7%E9%80%9A%E8%BF%87%E6%9C%AA%E6%8A%AB%E9%9C%B2%E5%85%B3%E8%81%94%E6%96%B9%E5%AE%9E%E6%96%BD%E7%9A%84%E8%88%9E%E5%BC%8A%E9%A3%8E%E9%99%A9/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC2%E5%8F%B7%E9%80%9A%E8%BF%87%E6%9C%AA%E6%8A%AB%E9%9C%B2%E5%85%B3%E8%81%94%E6%96%B9%E5%AE%9E%E6%96%BD%E7%9A%84%E8%88%9E%E5%BC%8A%E9%A3%8E%E9%99%A9/</guid>
       <description>&lt;h2 id=&#34;会计监管风险提示第2号通过未披露关联方实施的舞弊风险&#34;&gt;会计监管风险提示第2号—通过未披露关联方实施的舞弊风险&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2015-05-19&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -212,10 +248,10 @@
     
     <item>
       <title>会计监管风险提示第1号—政府补助</title>
-      <link>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC1%E5%8F%B7%E6%94%BF%E5%BA%9C%E8%A1%A5%E5%8A%A9/</link>
+      <link>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC1%E5%8F%B7%E6%94%BF%E5%BA%9C%E8%A1%A5%E5%8A%A9/</link>
       <pubDate>Sat, 08 Apr 2017 21:37:44 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/2020/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC1%E5%8F%B7%E6%94%BF%E5%BA%9C%E8%A1%A5%E5%8A%A9/</guid>
+      <guid>http://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC1%E5%8F%B7%E6%94%BF%E5%BA%9C%E8%A1%A5%E5%8A%A9/</guid>
       <description>&lt;h3 id=&#34;会计监管风险提示第1号政府补助&#34;&gt;&lt;strong&gt;会计监管风险提示第1号—政府补助&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;发布日期&lt;/strong&gt;：2015-05-19&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;标签&lt;/strong&gt;：会计监管风险提示&lt;/p&gt;
@@ -231,10 +267,10 @@
     
     <item>
       <title>hugo 搭建博客的完整记录</title>
-      <link>https://seymourgao.github.io/post/second/</link>
+      <link>http://seymourgao.github.io/post/second/</link>
       <pubDate>Tue, 07 Mar 2017 13:01:46 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/second/</guid>
+      <guid>http://seymourgao.github.io/post/second/</guid>
       <description>&lt;h2 id=&#34;hugo-搭建博客的完整记录&#34;&gt;hugo 搭建博客的完整记录&lt;/h2&gt;
 &lt;p&gt;结合互联网上一些大神的教程，这里记录一下我这个博客搭建的步骤以及踩过的一些坑。&lt;/p&gt;
 &lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;</description>
@@ -242,10 +278,10 @@
     
     <item>
       <title>测试</title>
-      <link>https://seymourgao.github.io/post/first/</link>
+      <link>http://seymourgao.github.io/post/first/</link>
       <pubDate>Wed, 01 Mar 2017 22:18:03 +0000</pubDate>
       
-      <guid>https://seymourgao.github.io/post/first/</guid>
+      <guid>http://seymourgao.github.io/post/first/</guid>
       <description></description>
     </item>
     
