@@ -1,1 +1,1 @@
-# seymourgao.github.io
+# blog
