@@ -3,7 +3,42 @@
   
   <url>
     <loc>https://seymourgao.github.io/categories/</loc>
-    <lastmod>2020-02-18T22:43:02+00:00</lastmod>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/interview/</loc>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/</loc>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/</loc>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/Interview-Is-a-Two-Way-Choice/</loc>
+    <lastmod>2020-03-08T20:49:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,20 +52,6 @@
   
   <url>
     <loc>https://seymourgao.github.io/categories/Git/</loc>
-    <lastmod>2020-02-18T22:43:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/post/</loc>
-    <lastmod>2020-02-18T22:43:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/tags/</loc>
     <lastmod>2020-02-18T22:43:02+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
