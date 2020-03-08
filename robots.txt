@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://seymourgao.github.io/sitemap.xml
+Sitemap: https://seymourgao.github.io/sitemap.xml

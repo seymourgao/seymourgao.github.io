@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on 不忘初心</title>
-    <link>http://seymourgao.github.io/tags/Python/</link>
+    <link>https://seymourgao.github.io/tags/Python/</link>
     <description>Recent content in Python on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 15 Nov 2019 13:01:46 +0000</lastBuildDate>
     
-	<atom:link href="http://seymourgao.github.io/tags/Python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seymourgao.github.io/tags/Python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python 批量合并 Excel 文件</title>
-      <link>http://seymourgao.github.io/post/four/</link>
+      <link>https://seymourgao.github.io/post/2020/four/</link>
       <pubDate>Fri, 15 Nov 2019 13:01:46 +0000</pubDate>
       
-      <guid>http://seymourgao.github.io/post/four/</guid>
+      <guid>https://seymourgao.github.io/post/2020/four/</guid>
       <description>&lt;h2 id=&#34;python合并处理excel&#34;&gt;python合并处理excel&lt;/h2&gt;
 &lt;p&gt;工作中经常需要批量处理excel文件，思考是否可以用Python来提高工作效率呢？&lt;/p&gt;
 &lt;p&gt;每天都会收到一个项目的数据日报，然后我需要将这些日报和之前的历史数据进行合并。更复杂的情况是，每个日报都不止一个sheet，如果手工复制的话，一个文件就需要复制三遍。&lt;/p&gt;

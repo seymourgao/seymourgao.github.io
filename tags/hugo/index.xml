@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on 不忘初心</title>
-    <link>http://seymourgao.github.io/tags/hugo/</link>
+    <link>https://seymourgao.github.io/tags/hugo/</link>
     <description>Recent content in hugo on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 07 Mar 2017 13:01:46 +0000</lastBuildDate>
     
-	<atom:link href="http://seymourgao.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seymourgao.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugo 搭建博客的完整记录</title>
-      <link>http://seymourgao.github.io/post/second/</link>
+      <link>https://seymourgao.github.io/post/2020/second/</link>
       <pubDate>Tue, 07 Mar 2017 13:01:46 +0000</pubDate>
       
-      <guid>http://seymourgao.github.io/post/second/</guid>
+      <guid>https://seymourgao.github.io/post/2020/second/</guid>
       <description>&lt;h2 id=&#34;hugo-搭建博客的完整记录&#34;&gt;hugo 搭建博客的完整记录&lt;/h2&gt;
 &lt;p&gt;结合互联网上一些大神的教程，这里记录一下我这个博客搭建的步骤以及踩过的一些坑。&lt;/p&gt;
 &lt;h3 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h3&gt;</description>

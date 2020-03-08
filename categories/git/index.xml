@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on 不忘初心</title>
-    <link>http://seymourgao.github.io/categories/Git/</link>
+    <link>https://seymourgao.github.io/categories/Git/</link>
     <description>Recent content in Git on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 18 Feb 2020 22:43:02 +0000</lastBuildDate>
     
-	<atom:link href="http://seymourgao.github.io/categories/Git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seymourgao.github.io/categories/Git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>廖雪峰Git教程总结</title>
-      <link>http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/</link>
+      <link>https://seymourgao.github.io/post/2020/liaoxuefeng-gitjiaocheng/</link>
       <pubDate>Tue, 18 Feb 2020 22:43:02 +0000</pubDate>
       
-      <guid>http://seymourgao.github.io/post/liaoxuefeng-gitjiaocheng/</guid>
+      <guid>https://seymourgao.github.io/post/2020/liaoxuefeng-gitjiaocheng/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;新冠状病毒继续肆虐，愿所有人平安。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)&lt;/em&gt;&lt;/p&gt;
@@ -49,10 +49,10 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
     
     <item>
       <title>Git常用命令</title>
-      <link>http://seymourgao.github.io/post/snippets/</link>
+      <link>https://seymourgao.github.io/post/2020/snippets/</link>
       <pubDate>Wed, 01 May 2019 17:25:24 +0000</pubDate>
       
-      <guid>http://seymourgao.github.io/post/snippets/</guid>
+      <guid>https://seymourgao.github.io/post/2020/snippets/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;常用的Git命令总结，加深记忆学习。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)&lt;/em&gt;&lt;/p&gt;
