@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Inventory - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content="以存货跌价准备为例分析对利润的影响" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/inventory/" />
+<link href="/inventory/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/inventory/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c474d049.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="Inventory" />
+<meta property="og:description" content="以存货跌价准备为例分析对利润的影响" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/inventory/" />
+<meta property="article:published_time" content="2018-05-21T17:09:26+08:00" />
+<meta property="article:modified_time" content="2018-05-21T17:09:26+08:00" />
+<meta itemprop="name" content="Inventory">
+<meta itemprop="description" content="以存货跌价准备为例分析对利润的影响">
+<meta itemprop="datePublished" content="2018-05-21T17:09:26&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-21T17:09:26&#43;08:00" />
+<meta itemprop="wordCount" content="1049">
+
+
+
+<meta itemprop="keywords" content="会计," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Inventory"/>
+<meta name="twitter:description" content="以存货跌价准备为例分析对利润的影响"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title=""></li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title=""></a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  <div class="post-content">
+    <h2 id="存货跌价准备如何影响利润">存货跌价准备如何影响利润？</h2>
+<p>今天总结存货跌价准备对报表项目&quot;会计利润&quot;的影响。</p>
+<p>首先，假设：</p>
+<p>存货为100万，如果计提存货跌价准备10，存货以200万销售。</p>
+<p>会计分录如下:</p>
+<p>计提存货跌价准备：
+借：资产减值损失  10万
+贷：存货跌价准备   10万</p>
+<p>销售产品：
+借：银行存款  200万
+贷：主营业务收入  200万
+借：主营业务成本  90万
+存货跌价准备  10万
+贷：存货       100万</p>
+<p>那么，当期利润=主营业务收入-主营业务成本=200-90=110
+但是，之前还有资产减值损失的10万，减去后利润不变成100了吗？到最后利润还是100万，那存货跌价准备对利润根本没影响存货跌价准备和利润到底什么关系？</p>
+<p>答：</p>
+<p>如果不考虑时间差异，任何有关减值准备的计提（包括假账）对利润影响都是一样的，即没有影响！</p>
+<p>我们通常说的影响利润，是指影响当期（年）利润，你不分年度就看不出来了。</p>
+<p>因为<strong>减值准备本身就是财务人员对资产估值的主观判断，所影响的利润都是理论上纸面上的</strong>，你计提或不计提都与交易无关，存货能高价卖出去就赚钱，相反卖不出去或赔本卖出去就亏钱，交易双方才不关心你账上记的价格呢（你见过做买卖还互相查账的么？）</p>
+<p>但是，跌价准备还是能影响<strong>当期</strong>利润的！做假账也好，盈余管理也好，跌价准备都是重要的利润调节手段。</p>
+<p>有一家电子器件生产商，生产了一批电子设备因为市场和质量因素没能及时出售，成本大概1000万。电子设备跌的快，每次年审要提减值，公司就是不想提，就这么拖了两年。到了第三年年审，实在说不过去了，公司财务想了个办法，找一个下家声称能以九折的价格卖出去，合同也签了，连发货单都有，对方也签收了（当然发票和货款是没有的），审计明知道是假交易，但人家手续齐全呀，只有按100万提了减值。</p>
+<p>到了来年再审，果然是假的！别说开票收钱了，连货都没动窝。审计也发狠了，找了专家专项评估，最后评估值三折都没有。事实上以三折的价到现在也没卖出去！</p>
+<p>所以说跌价准备是能很大程度影响利润的，但只是一时，真的假不了，假的真不了！</p>
+<p>出现这种情况都是“权责发生制”造成的，<strong>权责发生制</strong>是现代企业会计制度的基础，有了它才有了“当期利润”这一说，但权责发生制也给了利润操纵留下了很大空间：本来是现货交易，现在可以赊账，挂个应收账款利润就增加了，明年把货一退，利润又减少了。收付实现制根本不会有这种情况。</p>
+<p>所以我们看报表不能只看结果（净利润），还要看结果是怎么来的，看经营性现金流是否健康，看主营利润在净利润中的占比，如果净利润为正、现金流为负，应收账款、存货连年增长，这样的利润是要打问号的。</p>
+  </div>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.5942e7b2.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

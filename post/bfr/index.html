@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？ - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/post/bfr/" />
+<link href="/post/bfr/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/bfr/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c474d049.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？" />
+<meta property="og:description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/post/bfr/" />
+<meta property="article:published_time" content="2018-08-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-08-11T00:00:00+00:00" />
+<meta itemprop="name" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？">
+<meta itemprop="description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业">
+<meta itemprop="datePublished" content="2018-08-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-08-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="883">
+
+
+
+<meta itemprop="keywords" content="财务分析," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？"/>
+<meta name="twitter:description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title=""></li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title=""></a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  
+  <header class="post-header">
+    <h1 class="post-title">财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？</h1>
+
+    <div class="post-meta">
+      <span class="post-time"> 2018-08-11 00:00 </span>
+      <div class="post-category">
+        <a href="/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/"> 财务分析 </a>
+        </div>
+      <span class="more-meta"> 约 883 字 </span>
+      <span class="more-meta"> 预计阅读 2 分钟 </span>
+      <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+    </div>
+  </header>
+
+  <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+  <div class="post-outdated">
+    <div class="hint">
+      <p>【注意】最后更新于 <span class="timeago" datetime="2018-08-11T00:00:00" title="August 11, 2018">August 11, 2018</span>，文中内容可能已过时，请谨慎使用。</p>
+    </div>
+  </div>
+  <div class="post-content">
+    <p>问：</p>
+<p><img src="C:%5CUsers%5CGAO%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200323145559944.png" alt="image-20200323145559944"></p>
+<p>应收帐款周转率=营业收入÷应收账款</p>
+<p>存货周转率=营业收入（营业成本）÷存货</p>
+<p>流动资产周转率=营业收入÷流动资产</p>
+<p>营业资本周转率=营业收入÷营业成本</p>
+<p>非流动资产周转率=营业收入÷非流动资产</p>
+<p>固定资产周转情况分析=营业收入÷固定资产</p>
+<p>总资产周转情况的分析=营业收入÷总资产</p>
+<p>净资产周转率=营业收入÷净经营资产</p>
+<p>某某周转天数=365÷某某周转次数</p>
+<p>某某与收入比=某某÷营业收入</p>
+<p>存货和应收账款的周转次数用营业收入作为分子能够理解，因为他们最终流向了营业收入。但是其他诸如流动资产、营运资本、非流动资产等为什么要用营业收入除，这些科目并不最终流向营业收入啊？是因为营业收入而产生吗？</p>
+<p>答：</p>
+<p>营运能力分析的是企业资产的运营效率，一般就是拿公司的产出量与资产占用量做对比。</p>
+<p>资产占有量不用多说，余额有多少就是多少。产出量最合适的是就是营业收入，因为收入是有效产出，与效益直接相关。</p>
+<p>所以算营运能力用营业收入当分子没有问题，有问题的是这样分析有多大用处。</p>
+<p>举个例子，AB两家超市，A超市一个月的资产运营倍数是20，B超市的资产运营倍数是15，那是不是说A超市的资产运营能力就一定比B超市高呢？其实不是，是因为两家卖的商品不一样，A超市主营生鲜，周转快，但损耗高；B超市主营日用品，周转相比慢一点，但损耗低。</p>
+<p>因为产品不一样，运营指数肯定就不一样，说明不了什么问题。</p>
+<p>那我们再找一家C超市，也是主打生鲜，算出来资产运营倍数是15，那是不是说C超市的运营能力就一定比A超市差呢，还真没那么简单。C超市虽然也是做生鲜，但经营方式与A超市不一样，A超市商品都是经销，进货都用自己的钱现货现结，占用资金量比较大；C超市的商品主要是代理商垫资进货，商品其实是代理商的，卖多少结多少，卖不掉还是代理商承担，超市本身没有风险。</p>
+<p>把代理商垫的商品去掉，C超市的资产运营倍数可以达到40、50，因为除了房租和人工，超市基本没钱，运营指数当然高。</p>
+<p>我说这个例子是想告诉大家，单从报表上取数做出来的财务分析数字没有什么意义，修饰一个财务指标比财务造假还要容易，不去了解业务、分析业务，只去分析纸面的数据，和财务造假一样也会造成很大的误导。</p>
+
+  </div>
+
+  <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">G Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-08-11 00:00
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/wechat.png">
+        <span>微信</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/alipay.png">
+        <span>支付宝</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+    <div class="post-tags">
+      <a href="/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/">财务分析</a>
+      </div>
+    <nav class="post-nav">
+      <a class="prev" href="/post/zaoj/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+      <a class="next" href="/post/deferred/">
+        <span class="next-text nav-default">假设企业现有销售货物收入一千万，此前没有成本费用，在不违法的情况下，不预缴所得税，把税延到以后月份?</span>
+        <span class="next-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav>
+  </footer>
+  <script src="https://utteranc.es/client.js"
+          repo="seymourgao/blog"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterance.</a></noscript>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.5942e7b2.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

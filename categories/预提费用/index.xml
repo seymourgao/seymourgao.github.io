@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>预提费用 on 不忘初心</title>
+    <link>https://seymourgao.github.io/categories/%E9%A2%84%E6%8F%90%E8%B4%B9%E7%94%A8/</link>
+    <description>Recent content in 预提费用 on 不忘初心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 19 Apr 2017 17:21:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://seymourgao.github.io/categories/%E9%A2%84%E6%8F%90%E8%B4%B9%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>预提费用是什么？为什么在报表中取消？</title>
+      <link>https://seymourgao.github.io/post/expense/</link>
+      <pubDate>Wed, 19 Apr 2017 17:21:18 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/expense/</guid>
+      <description>&lt;h2 id=&#34;预提费用是什么为什么在报表中取消&#34;&gt;预提费用是什么？为什么在报表中取消？&lt;/h2&gt;
+&lt;p&gt;2007年，会计准则修订时把预提费用这个会计科目取消了，同时消失的还有待摊费用。&lt;/p&gt;
+&lt;p&gt;之前预提费用主要用于计提银行借款的利息，比如公司借了1千万的短期借款，按季支付利息，每季要付15万。因为是权益发生制，每个月的利息支出要与当月的收入配比，所以要把利息费用预提出来，每个月提3万，借：财务费用3万，贷：预提费用3万。&lt;/p&gt;
+&lt;p&gt;到季末一次性付给银行，&lt;/p&gt;
+&lt;p&gt;​	借：预提费用6万&lt;/p&gt;
+&lt;p&gt;​	借：财务费用3万&lt;/p&gt;
+&lt;p&gt;​	贷：银行存款9万&lt;/p&gt;
+&lt;p&gt;后来为什么取消？因为名不符实，这3万块钱不是预提，是已经发生、真实存在的负债，只要暂时不用支付而已，所以要把预提费用改为应付利息，应付给银行的利息，指向更明确。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

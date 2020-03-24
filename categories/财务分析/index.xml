@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>财务分析 on 不忘初心</title>
+    <link>https://seymourgao.github.io/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 财务分析 on 不忘初心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://seymourgao.github.io/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何写出有深度的财务分析报告？</title>
+      <link>https://seymourgao.github.io/post/ca/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/ca/</guid>
+      <description>如何写出有深度的财务分析报告？ 很多人写财务分析喜欢强调要用数字说话，这话听起来一点错都没有，实际上大错特错！ 财务分析用数字说话其实是走进了另</description>
+    </item>
+    
+    <item>
+      <title>为了贷到款，财务报表要做那些修饰？</title>
+      <link>https://seymourgao.github.io/post/baobiaoxiushi/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/baobiaoxiushi/</guid>
+      <description>为了贷到款，财务报表要做那些修饰？ 老板要去银行贷款 需要提供财务报表和纳税申报表 想改漂亮点 需要注意些什么？ 不论是搞贷款还是信用评级，或者公司上</description>
+    </item>
+    
+    <item>
+      <title>如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？</title>
+      <link>https://seymourgao.github.io/post/zaoj/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/zaoj/</guid>
+      <description>如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？ 要查财务造假，先要把造假的目的搞清楚，否则就是瞎查，事倍功半。 一、为了逃税而造假 绝大多</description>
+    </item>
+    
+    <item>
+      <title>财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？</title>
+      <link>https://seymourgao.github.io/post/bfr/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/bfr/</guid>
+      <description>问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业</description>
+    </item>
+    
+    <item>
+      <title>财务分析一般会有哪些思路和方法？</title>
+      <link>https://seymourgao.github.io/post/analyse/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/analyse/</guid>
+      <description>大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构</description>
+    </item>
+    
+    <item>
+      <title>专业人士看企业的财务报表的思路?</title>
+      <link>https://seymourgao.github.io/post/financial/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/financial/</guid>
+      <description>&lt;p&gt;带着不同目的看财报，思路也是不一样的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;转载&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;一先说审计角度&#34;&gt;一、先说审计角度&lt;/h4&gt;
+&lt;p&gt;财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。&lt;/p&gt;
+&lt;p&gt;审计中两种思路会同时进行，并以前者为主，概括如下：&lt;/p&gt;
+&lt;p&gt;（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。&lt;/p&gt;
+&lt;p&gt;（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。&lt;/p&gt;
+&lt;p&gt;如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。&lt;/p&gt;
+&lt;p&gt;审计思路在于查错纠正，与投资者角度不同。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

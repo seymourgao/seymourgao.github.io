@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>会计 on 不忘初心</title>
+    <link>https://seymourgao.github.io/tags/%E4%BC%9A%E8%AE%A1/</link>
+    <description>Recent content in 会计 on 不忘初心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Mar 2020 22:47:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://seymourgao.github.io/tags/%E4%BC%9A%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>说说应收账款和应收票据的区别</title>
+      <link>https://seymourgao.github.io/post/bank/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/bank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一家公司应收账款和应付账款同时非常多意味着什么？</title>
+      <link>https://seymourgao.github.io/post/dr/</link>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/dr/</guid>
+      <description>一家公司应收账款和应付账款同时非常多意味着什么？ 正常经营的公司上下游欠款是很常见的，比如三角债什么的，我发货给客户有账期，收不到钱，那从供应</description>
+    </item>
+    
+    <item>
+      <title>调还是不调，这是一个问题——资产负债表日后事项的会计处理</title>
+      <link>https://seymourgao.github.io/post/adjust/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/adjust/</guid>
+      <description>&lt;p&gt;😄&lt;/p&gt;
+&lt;p&gt;企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。&lt;/p&gt;
+&lt;p&gt;是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>存货跌价准备如何影响利润？</title>
+      <link>https://seymourgao.github.io/post/inventory/</link>
+      <pubDate>Mon, 21 May 2018 17:09:26 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/inventory/</guid>
+      <description>&lt;h2 id=&#34;存货跌价准备如何影响利润&#34;&gt;存货跌价准备如何影响利润？&lt;/h2&gt;
+&lt;p&gt;今天总结存货跌价准备对报表项目&amp;quot;会计利润&amp;quot;的影响。&lt;/p&gt;
+&lt;p&gt;首先，假设：&lt;/p&gt;
+&lt;p&gt;存货为100万，如果计提存货跌价准备10，存货以200万销售。&lt;/p&gt;
+&lt;p&gt;会计分录如下:&lt;/p&gt;
+&lt;p&gt;计提存货跌价准备：
+借：资产减值损失  10万
+贷：存货跌价准备   10万&lt;/p&gt;
+&lt;p&gt;销售产品：
+借：银行存款  200万
+贷：主营业务收入  200万
+借：主营业务成本  90万
+存货跌价准备  10万
+贷：存货       100万&lt;/p&gt;
+&lt;p&gt;那么，当期利润=主营业务收入-主营业务成本=200-90=110
+但是，之前还有资产减值损失的10万，减去后利润不变成100了吗？到最后利润还是100万，那存货跌价准备对利润根本没影响存货跌价准备和利润到底什么关系？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>上市公司截止至6月底应付职工薪酬400万元，现金流量应付职工薪酬1-6月累计数3个亿，是否合理？</title>
+      <link>https://seymourgao.github.io/post/control/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/control/</guid>
+      <description>&lt;h2 id=&#34;上市公司截止至6月底应付职工薪酬400万元现金流量应付职工薪酬1-6月累计数3个亿是否合理&#34;&gt;上市公司截止至6月底应付职工薪酬400万元，现金流量应付职工薪酬1-6月累计数3个亿，是否合理？&lt;/h2&gt;
+&lt;p&gt;我觉得可能有问题，但不是绝对的。&lt;/p&gt;
+&lt;p&gt;400万是应付职工薪酬的余额，3个亿是上半年的发生额，没有可比性，所以不能因为两个数据差距大就认为不合理。&lt;/p&gt;
+&lt;p&gt;公司的应付职工薪酬有没有余额，有多少余额，取决于它的薪酬发放政策。很多公司采取的是当月计提，下个月发放，就是工资发放要推迟一个月，私企一般都这样，因为绩效工资计算需要时间，当月的工资当月就是算出来可能性不大，所以要放到第二个月的月初发放，但按照权责发生制原则，工资做还要做为成本费用计提到发生月份，即借：管理费用，贷：应付职工薪酬，这就让应付职工薪酬科目在月底留下了一个很大余额。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为什么会出现年底催收账款这种现象？</title>
+      <link>https://seymourgao.github.io/post/year/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/year/</guid>
+      <description>&lt;p&gt;问：&lt;/p&gt;
+&lt;p&gt;年底了，很多个人和单位都在收款或者躲避收款，甚至「花费了很大力气」来收款或者躲避？&lt;/p&gt;
+&lt;p&gt;针对现象，想问的问题主要是这三个方面：&lt;/p&gt;
+&lt;p&gt;1.为什么会有个人或单位故意拖欠账款？有多少比例是「现金流困难型欠款」，而多少是「流动性偏好型欠款」？&lt;/p&gt;
+&lt;p&gt;2.这是否是个博弈的均衡结果？但是对于双方来说都会提高交易成本，为何最后的博弈均衡不是所有人都按时归还欠款？&lt;/p&gt;
+&lt;p&gt;3.对现实最理想的改进是什么样的？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,37 @@
     <description>Recent content on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Mar 2020 22:58:57 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 13:25:47 +0800</lastBuildDate>
     
 	<atom:link href="https://seymourgao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Graph</title>
+      <link>https://seymourgao.github.io/graph/</link>
+      <pubDate>Tue, 24 Mar 2020 13:25:47 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>会计监管风险提示第9号—上市公司控股股东资金占用及其审计</title>
+      <link>https://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC9%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E6%8E%A7%E8%82%A1%E8%82%A1%E4%B8%9C%E8%B5%84%E9%87%91%E5%8D%A0%E7%94%A8%E5%8F%8A%E5%85%B6%E5%AE%A1%E8%AE%A1/</link>
+      <pubDate>Sun, 08 Mar 2020 22:47:44 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC9%E5%8F%B7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E6%8E%A7%E8%82%A1%E8%82%A1%E4%B8%9C%E8%B5%84%E9%87%91%E5%8D%A0%E7%94%A8%E5%8F%8A%E5%85%B6%E5%AE%A1%E8%AE%A1/</guid>
+      <description>&lt;h2 id=&#34;会计监管风险提示第9号上市公司控股股东资金占用及其审计&#34;&gt;会计监管风险提示第9号——上市公司控股股东资金占用及其审计&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;发布机构:&lt;/strong&gt; 证监会&lt;/p&gt;
+&lt;p&gt;**索 引 号:**40000895X/&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;发文日期&lt;/strong&gt;: 2019年12月23日&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.csrc.gov.cn/zjhpublic/G00306213/201912/t20191223_368127.htm&#34;&gt;原文地址&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;标签：证监会、会计监管风险提示&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;为强化对上市公司控股股东及其关联方资金占用和违规担保问题（以下简称资金占用）的会计监管，规范上市公司相关内部控制，督促会计师事务所勤勉尽责执业，防范化解金融风险，提升资本市场会计信息披露质量，保护投资者合法权益，根据《企业会计准则》《企业内部控制基本规范》《上市公司信息披露管理办法》《上市公司治理准则》《关于规范上市公司与关联方资金往来及上市公司对外担保若干问题的通知》《中国注册会计师执业准则》等有关规定，现就上市公司控股股东资金占用及其审计业务的会计监管风险进行提示。&lt;/p&gt;
+&lt;h2 id=&#34;一资金占用的主要形式&#34;&gt;一、资金占用的主要形式&lt;/h2&gt;
+&lt;p&gt;控股股东资金占用形式多样，通过总结归纳现有监管案例情况，主要分为以下两种模式：&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>My</title>
@@ -86,6 +113,15 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
     </item>
     
     <item>
+      <title>商誉减值实务中该如何让处理?</title>
+      <link>https://seymourgao.github.io/post/goodwill/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/goodwill/</guid>
+      <description>商誉减值实务中该如何处理? 近期审核商誉减值，找了一些案例，也好好的将证监会11月发布的《会计监管风险提示第8号—商誉减值》学习了一遍，之前只</description>
+    </item>
+    
+    <item>
       <title>Python 批量合并 Excel 文件</title>
       <link>https://seymourgao.github.io/post/2020/four/</link>
       <pubDate>Fri, 15 Nov 2019 13:01:46 +0000</pubDate>
@@ -104,6 +140,24 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
       
       <guid>https://seymourgao.github.io/post/2020/third/</guid>
       <description>&lt;p&gt;excel中有很多有用的函数，这里列举几个常用的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>非法买卖增值税发票是怎样获利的？</title>
+      <link>https://seymourgao.github.io/post/piao/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/piao/</guid>
+      <description>这里的非法买卖增值税发票不是指火车站偷偷卖的小票，那些票金额小，假的多，购买方都是为了回去报销用，但很可能买了也报不了；也不是注册个皮包公司</description>
+    </item>
+    
+    <item>
+      <title>如何写出有深度的财务分析报告？</title>
+      <link>https://seymourgao.github.io/post/ca/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/ca/</guid>
+      <description>如何写出有深度的财务分析报告？ 很多人写财务分析喜欢强调要用数字说话，这话听起来一点错都没有，实际上大错特错！ 财务分析用数字说话其实是走进了另</description>
     </item>
     
     <item>
@@ -138,6 +192,69 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
     </item>
     
     <item>
+      <title>你见过最牛的财务人是什么样的？</title>
+      <link>https://seymourgao.github.io/post/niuren/</link>
+      <pubDate>Fri, 19 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/niuren/</guid>
+      <description>我来说个合理利用会计政策为企业创利亿元的案例，有点长，专业性强，慢慢看。 2018年“企业会计准则第22号——金融工具确认和计量”重新修订（上</description>
+    </item>
+    
+    <item>
+      <title>利润调节在实务中是怎样一种表现形式</title>
+      <link>https://seymourgao.github.io/post/earning/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/earning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>怎么写年终总结？</title>
+      <link>https://seymourgao.github.io/post/cpa/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/cpa/</guid>
+      <description>怎么写年终总结？ 年终总结很重要，如果你对年终总结不重视，年底写总结时感到无从下笔，那就说明你在公司的地位不高，人也不怎么受重视。 年终总结有业</description>
+    </item>
+    
+    <item>
+      <title>收购一家公司，财务上需要注意什么问题？</title>
+      <link>https://seymourgao.github.io/post/purchase/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/purchase/</guid>
+      <description>&lt;p&gt;👍😄&lt;/p&gt;
+&lt;h2 id=&#34;收购一家公司财务上需要注意什么问题&#34;&gt;收购一家公司，财务上需要注意什么问题&lt;/h2&gt;
+&lt;p&gt;一般大的并购都会请专业机构做尽调，但有的老板不一定舍得，而且也不是所有尽调都能尽职尽责，如果有机会，财务参与一下总没坏处（当然只是尽调的补充）。&lt;/p&gt;
+&lt;h3 id=&#34;一资产方面&#34;&gt;一、资产方面&lt;/h3&gt;
+&lt;h4 id=&#34;1了解坏账计提资产折旧等会计估计政策&#34;&gt;1、了解坏账计提、资产折旧等会计估计政策&lt;/h4&gt;
+&lt;p&gt;不同的行业，坏账计提政策应该不一样，贸易企业，只要过了合同付款一个月没回款都是有风险的，有的长期客户，因为信用良好，公司可能会有意把信用期延长到一年左右，不提准备也没问题。我们应该特别注意应收款余款较高的公司，如果没有把坏账提足，会严重影响估值。&lt;/p&gt;
+&lt;h4 id=&#34;2存货和应收账款的账龄分析&#34;&gt;2、存货和应收账款的账龄分析&lt;/h4&gt;
+&lt;p&gt;为了少提准备，有的公司做一些假销售、假回款的小动作，目的是改变存货和应收款的账龄，关注一下公司年末、年初这两项资产的变化的，如果发生额比平时高且没有业务方面的解释，就有理由怀疑它的真实性。&lt;/p&gt;
+&lt;h4 id=&#34;3固定资产无形资产研发支出和递延所得税资产&#34;&gt;3、固定资产、无形资产、研发支出和递延所得税资产&lt;/h4&gt;
+&lt;p&gt;固定资产是尽调的重点，收购时也会重新评估，反而不用过于关注，大概了解一下东西在不在，权证是否齐全，有没有抵押担保即可；&lt;/p&gt;
+&lt;p&gt;无形资产要看它能不能带来持续稳定的现金回报，如果没有就应该提减值，会计上对无形资产按年限分摊一点都不靠谱；&lt;/p&gt;
+&lt;p&gt;研发支出资产化是会计上的一个难点，能不能确认要结合整体情况分析，如果公司研发投入是必要的，且能为企业带来产品的竞争力，就可以保留；&lt;/p&gt;
+&lt;p&gt;递延所得税资产是未来预计可以用来抵税的资产，这个要结合公司税收政策和未来和盈利能力分析，如果金额过大也是有问题的，因为抵的是未来多年的税，实际上是一个有不确定性且会贬值的资产。&lt;/p&gt;
+&lt;h3 id=&#34;二利润方面&#34;&gt;二、利润方面&lt;/h3&gt;
+&lt;h4 id=&#34;1了解收入成本的结构&#34;&gt;1、了解收入成本的结构&lt;/h4&gt;
+&lt;p&gt;如果要评最容易造假的报表项目，资产负债表里应该是存货，损益表里就是营业收入。公司可以通过关系方（不一定是关联方，熟人都可以帮忙）过票增加收入规模，所以那些与主营无关的、毛利率很低的收入项目都应该特别关注，也不要相信它。&lt;/p&gt;
+&lt;p&gt;有的公司会宣称自己产品的市场竞争力很强，毛利率远高于同行业其他产品，这可能是真的，也可能有其他原因——把回款期延长，把制造费用期间化，人为调节单个产品的成本等等，如果产品的市场知名度不是很高，公司管理水平也一般，我们应该怀疑毛利率的真实性。&lt;/p&gt;
+&lt;h4 id=&#34;2不要轻易相信对方给你画的蓝图大饼&#34;&gt;2、不要轻易相信对方给你画的蓝图（大饼）&lt;/h4&gt;
+&lt;p&gt;有一个工厂，生产的医疗机器主要供应各大医院，产品技术、质量一流，但销售价格只有市场的一半，产品的利润不高。一查是因为工厂把销售这一块放弃了，所有的产品打包以低价卖了几个经销商，大部分利润让经销商赚走了。现在公司要买这个厂股份，会计算了个账，如果把渠道拿回来，产品能以市场的七折销售出去，这个投资就能稳赚不亏，那我们是不是可以得出结论——这个项目可以投！&lt;/p&gt;
+&lt;p&gt;实际情况是，医疗采购内幕重重，几乎所有向医院销售产品的业务员都会面临给不给回扣的问题，不给，这笔生意九成要黄；给，就要涉嫌违法违纪。为了风险最小化，这家工厂主动放弃了产品的销售渠道，医院的公关全交给代理商打理，给不给回扣也是代理商的事，工厂宁可牺牲一部分利润也要保证经营安全，这是正确的选择。&lt;/p&gt;
+&lt;p&gt;如果投资人高价把股权收购回来，就会面临一个两难的境地——高利润，有风险；低利润，投资难以收回。&lt;/p&gt;
+&lt;p&gt;所以当对方给你画大饼时，一定要问清楚：这么好的事，为什么便宜我？&lt;/p&gt;
+&lt;h3 id=&#34;三现金流方面&#34;&gt;三、现金流方面&lt;/h3&gt;
+&lt;p&gt;一般来说，现金流是会计造假难度最高，检查成本相比低的一个。&lt;/p&gt;
+&lt;p&gt;销售可以虚假开票，盘点可以拿别人的存货顶包，往来询证可以找萝卜盖章，但现金流只要找银行出具一个流水对账单就可以一辨真假。收入再高，利润再多，现金流不匹配，又没有解释的，都不要轻易相信。&lt;/p&gt;
+&lt;p&gt;但是，这几年业财融合下来，会计造假早已提高到业务造假的层次，现金流也是可以动手脚，也就是成本高一点，但欺骗性更强，收益更高呀。&lt;/p&gt;
+&lt;p&gt;有一家并购一家网游公司就碰到过现金流的问题，这家公司近两年收入利润增长都很快，一查现金流入也能对得上，从趋势分析前景一片向好。但仔细分析，现金流入主要是年底几家公司打进来的，按说网游充值比较分散，这种情况不太正常。对方解释这几家都是代理商，但代理商都是成立不久的小公司，也不是大平台，总让人有点不放心。再看支出方面，很多费用研发支出单据不全，去向不明，就怀疑是找人帮忙，做大现金流入，骗人下套的手法。&lt;/p&gt;
+&lt;p&gt;当然咱也没有证据，但投是不敢投了，后来听说这是行业比较通行的做法，甚至还有几个游戏公司相互合作的，到了谁家要并购增资了，大家一齐过来帮忙充值，也不知真假。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>会计监管风险提示第8号—商誉减值</title>
       <link>https://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</link>
       <pubDate>Sun, 30 Dec 2018 23:11:44 +0000</pubDate>
@@ -150,6 +267,139 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
 &lt;hr&gt;
 &lt;p&gt;为强化商誉减值的会计监管，进一步规范上市公司商誉减值的会计处理及信息披露，督促会计师事务所、资产评估机构及其从业人员勤勉尽责、规范执业，提高资本市场会计信息披露质量，根据《企业会计准则》《中国注册会计师执业准则》《资产评估准则》《公开发行证券的公司信息披露编报规则第15号——财务报告的一般规定（2014年修订）》(证监会公告〔2014〕54号)等有关规定，现就商誉减值的会计监管风险进行提示。&lt;/p&gt;
 &lt;p&gt;对拟上市公司、新三板公司等其他资本市场主体商誉减值事项的监管，参照本提示。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>上市公司的年报出具要经历多少程序？</title>
+      <link>https://seymourgao.github.io/post/nianbao/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/nianbao/</guid>
+      <description>问： 需要一个季度多的时间来完成年度报告吗？为什么有些上市公司的年报要到四月底才出来？甚至有些公司年报和一季报在一天发布。是什么造成了这种情况</description>
+    </item>
+    
+    <item>
+      <title>说说应收账款和应收票据的区别</title>
+      <link>https://seymourgao.github.io/post/bank/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/bank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>一家公司应收账款和应付账款同时非常多意味着什么？</title>
+      <link>https://seymourgao.github.io/post/dr/</link>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/dr/</guid>
+      <description>一家公司应收账款和应付账款同时非常多意味着什么？ 正常经营的公司上下游欠款是很常见的，比如三角债什么的，我发货给客户有账期，收不到钱，那从供应</description>
+    </item>
+    
+    <item>
+      <title>预算管理是怎么回事？公司全面预算如何实施？</title>
+      <link>https://seymourgao.github.io/post/bugget/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/bugget/</guid>
+      <description>预算管理是怎么回事？公司全面预算如何实施？ 预算管理是指企业在战略目标的指导下，对未来的经营活动和相应的财务结果进行充分、全面的预测和筹划，并</description>
+    </item>
+    
+    <item>
+      <title>财务部岗位分工</title>
+      <link>https://seymourgao.github.io/post/fengong/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/fengong/</guid>
+      <description>这是一家上市公司财务部各个岗位的职责： 资金管理岗（工作范围包括本部和下属单位）：一般都叫出纳岗，但叫资金管理也有道理，因为出纳主要负责资金的</description>
+    </item>
+    
+    <item>
+      <title>为了贷到款，财务报表要做那些修饰？</title>
+      <link>https://seymourgao.github.io/post/baobiaoxiushi/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/baobiaoxiushi/</guid>
+      <description>为了贷到款，财务报表要做那些修饰？ 老板要去银行贷款 需要提供财务报表和纳税申报表 想改漂亮点 需要注意些什么？ 不论是搞贷款还是信用评级，或者公司上</description>
+    </item>
+    
+    <item>
+      <title>现金流编制</title>
+      <link>https://seymourgao.github.io/post/cashflow/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/cashflow/</guid>
+      <description>公司编制现金流量表为什么常用间接法不用直接法？ 问： 初学一本财务方面的书，讲到公司编制现金流量表有直接法和间接法两种，直接法比间接法简单明了的</description>
+    </item>
+    
+    <item>
+      <title>调还是不调，这是一个问题——资产负债表日后事项的会计处理</title>
+      <link>https://seymourgao.github.io/post/adjust/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/adjust/</guid>
+      <description>&lt;p&gt;😄&lt;/p&gt;
+&lt;p&gt;企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。&lt;/p&gt;
+&lt;p&gt;是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？</title>
+      <link>https://seymourgao.github.io/post/zaoj/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/zaoj/</guid>
+      <description>如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？ 要查财务造假，先要把造假的目的搞清楚，否则就是瞎查，事倍功半。 一、为了逃税而造假 绝大多</description>
+    </item>
+    
+    <item>
+      <title>财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？</title>
+      <link>https://seymourgao.github.io/post/bfr/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/bfr/</guid>
+      <description>问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业</description>
+    </item>
+    
+    <item>
+      <title>假设企业现有销售货物收入一千万，此前没有成本费用，在不违法的情况下，不预缴所得税，把税延到以后月份?</title>
+      <link>https://seymourgao.github.io/post/deferred/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/deferred/</guid>
+      <description>&lt;h2 id=&#34;假设企业现有销售货物收入一千万此前没有成本费用在不违法的情况下不预缴所得税把税延到以后月份&#34;&gt;假设企业现有销售货物收入一千万，此前没有成本费用，在不违法的情况下，不预缴所得税，把税延到以后月份?&lt;/h2&gt;
+&lt;p&gt;问：&lt;/p&gt;
+&lt;p&gt;已经收到货款，并且已经给对方全额开具发票，对方也已经抵扣。不是不想交税或者是其他违规操作，只是希望能够递延一下到下个月份。&lt;/p&gt;
+&lt;p&gt;答：&lt;/p&gt;
+&lt;p&gt;不是不想缴，是想延后缴，应该不难。&lt;/p&gt;
+&lt;p&gt;交税这种事，拖一两个月太正常了，就是拖几年的都有，不是税务局不管，他们是没时间，那么多偷逃税款的都查不过来，就是知道大多都会当看不见，等你事情多了一块算总账，到时候罚款、滞纳金一块上，还能多收点&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在财务核算中，给员工发的奖金算是利润里的吗？</title>
+      <link>https://seymourgao.github.io/post/wage/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/wage/</guid>
+      <description>问： 譬如，一个企业去年全年营业收入1000万，营业利润200万，老板在春节2月给大家分发了100万年终奖，那么在财务报表中，去年的净利润应该</description>
+    </item>
+    
+    <item>
+      <title>财务新人没人带怎么办？</title>
+      <link>https://seymourgao.github.io/post/cawu/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/cawu/</guid>
+      <description>😄财务新人没人带怎么办？ 问： 刚毕业大学生，之前在某集团本部实习三个月，然而都是打杂的东西，没有实质性的内容。 然后被派到子公司做会计，没人带。</description>
+    </item>
+    
+    <item>
+      <title>“内部往来”和“资金调拨”应计入哪个会计科目？编制会计报表应计入哪个报表项目?</title>
+      <link>https://seymourgao.github.io/post/wanglai/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/wanglai/</guid>
+      <description>“内部往来”和“资金调拨”应计入哪个会计科目？编制会计报表应计入哪个报表项目? 内部往来和资金调拨都是企业自设的会计科目，会计报表项目是没有的</description>
     </item>
     
     <item>
@@ -171,6 +421,67 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
     </item>
     
     <item>
+      <title>国企工作效率是真低</title>
+      <link>https://seymourgao.github.io/post/guoqi/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/guoqi/</guid>
+      <description>与民企外企相比，国企效率真的不高，这里原因很多，展开讲可以写本书，这里我就聊聊人事方面的原因。 社会上公认国企不错，子女安排就业，第一选择当公</description>
+    </item>
+    
+    <item>
+      <title>存货跌价准备如何影响利润？</title>
+      <link>https://seymourgao.github.io/post/inventory/</link>
+      <pubDate>Mon, 21 May 2018 17:09:26 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/inventory/</guid>
+      <description>&lt;h2 id=&#34;存货跌价准备如何影响利润&#34;&gt;存货跌价准备如何影响利润？&lt;/h2&gt;
+&lt;p&gt;今天总结存货跌价准备对报表项目&amp;quot;会计利润&amp;quot;的影响。&lt;/p&gt;
+&lt;p&gt;首先，假设：&lt;/p&gt;
+&lt;p&gt;存货为100万，如果计提存货跌价准备10，存货以200万销售。&lt;/p&gt;
+&lt;p&gt;会计分录如下:&lt;/p&gt;
+&lt;p&gt;计提存货跌价准备：
+借：资产减值损失  10万
+贷：存货跌价准备   10万&lt;/p&gt;
+&lt;p&gt;销售产品：
+借：银行存款  200万
+贷：主营业务收入  200万
+借：主营业务成本  90万
+存货跌价准备  10万
+贷：存货       100万&lt;/p&gt;
+&lt;p&gt;那么，当期利润=主营业务收入-主营业务成本=200-90=110
+但是，之前还有资产减值损失的10万，减去后利润不变成100了吗？到最后利润还是100万，那存货跌价准备对利润根本没影响存货跌价准备和利润到底什么关系？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>财务分析一般会有哪些思路和方法？</title>
+      <link>https://seymourgao.github.io/post/analyse/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/analyse/</guid>
+      <description>大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构</description>
+    </item>
+    
+    <item>
+      <title>专业人士看企业的财务报表的思路?</title>
+      <link>https://seymourgao.github.io/post/financial/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/financial/</guid>
+      <description>&lt;p&gt;带着不同目的看财报，思路也是不一样的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;转载&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;一先说审计角度&#34;&gt;一、先说审计角度&lt;/h4&gt;
+&lt;p&gt;财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。&lt;/p&gt;
+&lt;p&gt;审计中两种思路会同时进行，并以前者为主，概括如下：&lt;/p&gt;
+&lt;p&gt;（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。&lt;/p&gt;
+&lt;p&gt;（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。&lt;/p&gt;
+&lt;p&gt;如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。&lt;/p&gt;
+&lt;p&gt;审计思路在于查错纠正，与投资者角度不同。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>会计监管风险提示第7号—轻资产类公司收益法评估</title>
       <link>https://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/</link>
       <pubDate>Wed, 18 Apr 2018 22:01:44 +0000</pubDate>
@@ -185,6 +496,62 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
     </item>
     
     <item>
+      <title>何为调表不调账、调账不调表？</title>
+      <link>https://seymourgao.github.io/post/tiao/</link>
+      <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/tiao/</guid>
+      <description>何为调表不调账、调账不调表？ 问： 刚接触投行业务，开会的时候听审计师常说调表不调账、调账不调表，请问是什么意思？ 答： 我没听说过调账不调表的说法</description>
+    </item>
+    
+    <item>
+      <title>财务造假的目的是什么？</title>
+      <link>https://seymourgao.github.io/post/cwzj/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/cwzj/</guid>
+      <description>财务造假最普遍的目的就是为了逃税，几乎所有的中小民企都会在这方面想点子，原因很简单——税收即成本，还可能是最大的一项成本，你不逃税别人也会逃</description>
+    </item>
+    
+    <item>
+      <title>国企和民企的最大区别是什么？</title>
+      <link>https://seymourgao.github.io/post/State-owned/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/State-owned/</guid>
+      <description>国企和民企最大区别是什么？ 有一年我去一家地方国企审计，发现这个规模不小的工厂，做着垄断的生意，却不怎么赚钱，甚至有潜亏。我找公司会计聊——你</description>
+    </item>
+    
+    <item>
+      <title>情商</title>
+      <link>https://seymourgao.github.io/post/honest/</link>
+      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/honest/</guid>
+      <description>&lt;h2 id=&#34;情商&#34;&gt;情商&lt;/h2&gt;
+&lt;p&gt;老实人和实在人是有区别的，但是实在人常常有老实人的特质，受了委屈，自己发发牢骚，不敢说出来。老实人，喜欢随大流，不敢站在别人的对立面。实在人更多的是为人真诚，很多人非常聪明，甚至大智若愚。&lt;/p&gt;
+&lt;p&gt;答：&lt;/p&gt;
+&lt;p&gt;能成为老实人首先是个心态问题，老实人通常是知足常乐型的，对物质也有追求，但不过于追求。这样小富即安，主观能动性不强，想成为富人当然难。&lt;/p&gt;
+&lt;p&gt;除掉富二代不谈，创业上位的富人（包括领导级的管理层）是有一定特点的。比如他们讲话喜欢十分说三分，剩下七分让你自己去悟！悟出来才是自己人，有提拔的必要，悟不出来就是朽木不可雕，或者要再炼炼。说白了就是要玩心眼！老实人当然不会玩心眼，就进不了富人圈。&lt;/p&gt;
+&lt;p&gt;比如你一位集团公司的财务负责人，有一天领导在大会上批评：今年又发现某公司经营出现了问题，亏损严重，你们平时是怎么监管的？这是就不点名批评了，实际情况是这家公司当年亏损不严重，业绩略有下滑而已。而且经营有问题主要责任人是下属公司管理层，再怎么说也和集团公司财务没有直接关系，这板子明显打歪了。&lt;/p&gt;
+&lt;p&gt;可我们深层次的分析一下，领导会不明白亏损是经营问题吗？其实问题的症结在一个“又”字，又发现某公司经营出现问题，说明之前就有公司出现问题了，领导主要是对之前的事不满，这次是借题发挥。所以借的题不是关键，要解决问题要先把领导之前的心节打开才行。&lt;/p&gt;
+&lt;p&gt;如果是老实人当财务负责人，可能会就事论事，把事情一五一十的向领导解释清楚，说不定还要抱怨两句。领导会怎么想？不是你的责任难道是我的责任？你没错难道是我说错了？心结没打开领导会更生气。&lt;/p&gt;
+&lt;p&gt;聪明人怎么做？先找到领导的心结在那，想好再找领导解释。说是解释，也不能直来直去，要先自我批评，领导批评的对，领导问题看的准之类马屁话一定要先说，再提解决方案，方案要看起来合理，而且主要执行人最好不是自己，不然解决不了还要背锅（事实上经营不力财务也不可能是主责任人），最后看似随意的把问题解释一下（这才是主要目的），领导前面听的舒服了，后面的解释也能接受。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>上市公司截止至6月底应付职工薪酬400万元，现金流量应付职工薪酬1-6月累计数3个亿，是否合理？</title>
+      <link>https://seymourgao.github.io/post/control/</link>
+      <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/control/</guid>
+      <description>&lt;h2 id=&#34;上市公司截止至6月底应付职工薪酬400万元现金流量应付职工薪酬1-6月累计数3个亿是否合理&#34;&gt;上市公司截止至6月底应付职工薪酬400万元，现金流量应付职工薪酬1-6月累计数3个亿，是否合理？&lt;/h2&gt;
+&lt;p&gt;我觉得可能有问题，但不是绝对的。&lt;/p&gt;
+&lt;p&gt;400万是应付职工薪酬的余额，3个亿是上半年的发生额，没有可比性，所以不能因为两个数据差距大就认为不合理。&lt;/p&gt;
+&lt;p&gt;公司的应付职工薪酬有没有余额，有多少余额，取决于它的薪酬发放政策。很多公司采取的是当月计提，下个月发放，就是工资发放要推迟一个月，私企一般都这样，因为绩效工资计算需要时间，当月的工资当月就是算出来可能性不大，所以要放到第二个月的月初发放，但按照权责发生制原则，工资做还要做为成本费用计提到发生月份，即借：管理费用，贷：应付职工薪酬，这就让应付职工薪酬科目在月底留下了一个很大余额。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>如何寻找财政部会计政策</title>
       <link>https://seymourgao.github.io/post/2017/2017-09-07%E5%A6%82%E4%BD%95%E5%AF%BB%E6%89%BE%E8%B4%A2%E6%94%BF%E9%83%A8%E4%BC%9A%E8%AE%A1%E6%94%BF%E7%AD%96/</link>
       <pubDate>Thu, 07 Sep 2017 21:37:44 +0000</pubDate>
@@ -194,6 +561,29 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
 &lt;p&gt;标签：会计&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://kjs.mof.gov.cn/zhengwuxinxi/zhengcefabu/&#34;&gt;财政部会计政策发布&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;财政部会计准则相关政策发布权威网站。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>为什么会出现年底催收账款这种现象？</title>
+      <link>https://seymourgao.github.io/post/year/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/year/</guid>
+      <description>&lt;p&gt;问：&lt;/p&gt;
+&lt;p&gt;年底了，很多个人和单位都在收款或者躲避收款，甚至「花费了很大力气」来收款或者躲避？&lt;/p&gt;
+&lt;p&gt;针对现象，想问的问题主要是这三个方面：&lt;/p&gt;
+&lt;p&gt;1.为什么会有个人或单位故意拖欠账款？有多少比例是「现金流困难型欠款」，而多少是「流动性偏好型欠款」？&lt;/p&gt;
+&lt;p&gt;2.这是否是个博弈的均衡结果？但是对于双方来说都会提高交易成本，为何最后的博弈均衡不是所有人都按时归还欠款？&lt;/p&gt;
+&lt;p&gt;3.对现实最理想的改进是什么样的？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>你知道哪些隐藏的财务数据造假细节？</title>
+      <link>https://seymourgao.github.io/post/electricity/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/electricity/</guid>
+      <description>你知道哪些隐藏的财务数据造假细节？ 问题背景：之前参加一个培训，一个证监会区域的副总给我们讲课，IPO的、财务的，深入浅出，栩栩如生，幽默而又</description>
     </item>
     
     <item>
@@ -223,6 +613,15 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
 &lt;hr&gt;
 &lt;p&gt;上市公司股权交易指上市公司及其控股或者控制的公司购买非上市公司股权、出售所持非上市公司股权，或通过其他方式导致所持非上市公司股权比例发生变动。为进一步提高上市公司股权交易财务信息披露质量，促进资产评估机构在执业过程中勤勉尽责，增强资产评估监管工作的针对性,按照《上市公司重大资产重组管理办法》（证监会令第73号）及《资产评估准则——企业价值》（中评协〔2011〕227号）、《评估机构业务质量控制指南》（中评协〔2010〕214号）等有关规定，现就上市公司股权交易资产评估监管风险进行提示。&lt;/p&gt;
 &lt;p&gt;对上市公司或拟上市公司其他涉及企业价值评估业务的监管，可参照本提示。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>存货的可变现净值在实务中是怎么操作的？</title>
+      <link>https://seymourgao.github.io/post/cunhuo/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/cunhuo/</guid>
+      <description>存货可变现净值在实务中是怎么操作的？ 问： 如可变现净值一定义中，资产的可变现净值是指按照其正常对外销售所能收到现金或者现金等价物的金额扣减该资</description>
     </item>
     
     <item>
@@ -266,6 +665,22 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
 &lt;hr&gt;
 &lt;p&gt;近年来，资本市场的财务报表舞弊案件涉及管理层未识别出或未向注册会计师披露的关联方关系及其交易的情况呈增长趋势。由于未披露关联方关系或交易大都经过精心策划或蓄意隐瞒，注册会计师往往难以识别和认定。通过未披露关联方实施的舞弊已成为注册会计师执业面临的主要审计风险之一，也是会计监管工作中应重点关注的风险领域之一。现对通过未披露关联方实施舞弊的常见形式、主要特征及其会计监管风险进行提示。&lt;/p&gt;
 &lt;h3 id=&#34;一通过未披露关联方舞弊的常见形式和主要特征&#34;&gt;一、通过未披露关联方舞弊的常见形式和主要特征&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>预提费用是什么？为什么在报表中取消？</title>
+      <link>https://seymourgao.github.io/post/expense/</link>
+      <pubDate>Wed, 19 Apr 2017 17:21:18 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/expense/</guid>
+      <description>&lt;h2 id=&#34;预提费用是什么为什么在报表中取消&#34;&gt;预提费用是什么？为什么在报表中取消？&lt;/h2&gt;
+&lt;p&gt;2007年，会计准则修订时把预提费用这个会计科目取消了，同时消失的还有待摊费用。&lt;/p&gt;
+&lt;p&gt;之前预提费用主要用于计提银行借款的利息，比如公司借了1千万的短期借款，按季支付利息，每季要付15万。因为是权益发生制，每个月的利息支出要与当月的收入配比，所以要把利息费用预提出来，每个月提3万，借：财务费用3万，贷：预提费用3万。&lt;/p&gt;
+&lt;p&gt;到季末一次性付给银行，&lt;/p&gt;
+&lt;p&gt;​	借：预提费用6万&lt;/p&gt;
+&lt;p&gt;​	借：财务费用3万&lt;/p&gt;
+&lt;p&gt;​	贷：银行存款9万&lt;/p&gt;
+&lt;p&gt;后来为什么取消？因为名不符实，这3万块钱不是预提，是已经发生、真实存在的负债，只要暂时不用支付而已，所以要把预提费用改为应付利息，应付给银行的利息，指向更明确。&lt;/p&gt;</description>
     </item>
     
     <item>

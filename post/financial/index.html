@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>专业人士看企业的财务报表的思路? - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content="带着不同目的看财报，思路也是不一样的。
+ 转载
+ 一、先说审计角度 财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。
+审计中两种思路会同时进行，并以前者为主，概括如下：
+（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。
+（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。
+如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。
+审计思路在于查错纠正，与投资者角度不同。
+" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/post/financial/" />
+<link href="/post/financial/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/financial/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c474d049.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="专业人士看企业的财务报表的思路?" />
+<meta property="og:description" content="带着不同目的看财报，思路也是不一样的。
+
+转载
+
+一、先说审计角度
+财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。
+审计中两种思路会同时进行，并以前者为主，概括如下：
+（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。
+（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。
+如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。
+审计思路在于查错纠正，与投资者角度不同。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/post/financial/" />
+<meta property="article:published_time" content="2018-05-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-05-06T00:00:00+00:00" />
+<meta itemprop="name" content="专业人士看企业的财务报表的思路?">
+<meta itemprop="description" content="带着不同目的看财报，思路也是不一样的。
+
+转载
+
+一、先说审计角度
+财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。
+审计中两种思路会同时进行，并以前者为主，概括如下：
+（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。
+（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。
+如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。
+审计思路在于查错纠正，与投资者角度不同。">
+<meta itemprop="datePublished" content="2018-05-06T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-06T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4131">
+
+
+
+<meta itemprop="keywords" content="财务分析," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="专业人士看企业的财务报表的思路?"/>
+<meta name="twitter:description" content="带着不同目的看财报，思路也是不一样的。
+
+转载
+
+一、先说审计角度
+财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。
+审计中两种思路会同时进行，并以前者为主，概括如下：
+（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。
+（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。
+如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。
+审计思路在于查错纠正，与投资者角度不同。"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title=""></li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title=""></a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  
+  <header class="post-header">
+    <h1 class="post-title">专业人士看企业的财务报表的思路?</h1>
+
+    <div class="post-meta">
+      <span class="post-time"> 2018-05-06 00:00 </span>
+      <div class="post-category">
+        <a href="/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/"> 财务分析 </a>
+        </div>
+      <span class="more-meta"> 约 4131 字 </span>
+      <span class="more-meta"> 预计阅读 9 分钟 </span>
+      <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+    </div>
+  </header>
+
+  <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+  <div class="post-outdated">
+    <div class="hint">
+      <p>【注意】最后更新于 <span class="timeago" datetime="2018-05-06T00:00:00" title="May 6, 2018">May 6, 2018</span>，文中内容可能已过时，请谨慎使用。</p>
+    </div>
+  </div>
+  <div class="post-content">
+    <p>带着不同目的看财报，思路也是不一样的。</p>
+<blockquote>
+<p>转载</p>
+</blockquote>
+<h4 id="一先说审计角度">一、先说审计角度</h4>
+<p>财务报告按规定应公司负责编制，但事实上大多数财务报告是审计者在审计完成后编制，并由公司认可后以自身名义对外发布的（原因是大多数公司财务部不具备编制专业财报的资源和能力，就好比多数公司的IT部门不能自主开发软件一样）。</p>
+<p>审计中两种思路会同时进行，并以前者为主，概括如下：</p>
+<p>（1）将资产负债表和利润表自上而下层层拆解拆细，去寻找支持这些报表数据的真实性、完整性、准确性的证据链（其中完整性最难以保证），对于现金流量表，我所见到的大多是根据资产负债表和利润表的明细内容倒算出来的（具体可参考注册会计师考试会计教材相关内容，不过有朋友反映有些公司会细致到标记每笔分录的现金流量类型）。</p>
+<p>（2）基于商业逻辑去分析财报数据，包括和历史数据以及同行业其他企业的数据作比较，还会考虑销售收入与经营环境变化的关系（比如钓鱼岛事件严重影响日企的销售收入），看看财务报表有无明显不合理之处，如果有，则进一步采用第（1）种方式深究。</p>
+<p>如果存在造假的话，那审计和造假就是一个“看谁做得更完美”的较量，审计者能否发现，取决于造假的程度和审计的深度。理论上，造假者可以造假整条证据链以及与第三者串通舞弊，但工作量很大且要确保证据链在逻辑上完整，而证据链涉及订单、合同、收发货物单据、发票、内部流转过程中的记录痕迹、成本计算、信息系统记录、会计记录、银行收付款记录等等，甚至还涉及虚构交易方或与客户或供应商串通，要虚构所有东西并保持逻辑一致是很困难的，尤其是银行流水如不提前计划根本无法回头去造假。理论上，审计者也可以无限深入调查，但出于审计成本、可操作性、法定审计责任义务以及被审计单位的反抗等原因，审计者无法像警察办案一样去侦察，只能达到自身事务所质量和风险控制所要求的水平，这也是好的会计师事务所与差的会计师事务所的区别所在；做空机构有时候更能发现造假，原因是他们动用了超常规的手段，用侦察的手段去收集一些隐蔽的信息。</p>
+<p>审计思路在于查错纠正，与投资者角度不同。</p>
+<h4 id="二投资者角度">二、投资者角度</h4>
+<p>我不懂专业机构如何做分析，但我个人看财报，主要就是想自己来掂量和判断一个公司的绝对估值，将市值除以绝对估值得出溢价倍数，在不同股票之间进行比较，由此对于哪些股票高估或低估会形成你自己心里的看法。而如果是对于一个陌生上市公司，我习惯性地这样快速来浏览（这不是经过计划或结构化的思路，只是自然形成的快速浏览的习惯）：</p>
+<p>（1）先浏览利润表的结构。</p>
+<p>浏览收入、成本费用、利润的金额和大致的比例结构，建立一个初步印象。看看最近两年利润表的变动，对经营状况的变动建立初步印象。接着再看利润表的盈亏与现金余额的增减变动对应关系如何，如果一个公司很赚钱，比如腾讯一年收入4000多亿，净利润1000多亿，我会好奇他的现金余额是不是也多了1000多亿，如果是的话那OK确实够赚钱；如果不是，我会去看现金流量表，他到底钱花哪去了，或者是赚了但没收回来；如果钱花在购买固定资产或公司并购上，那就去看资产负债表是不是相应增加了这些资产，以及进一步看能否挖掘到这些大额新增资产或并购有何目的以及是否合理（公司实际控制人通过虚增资产或隐蔽的关联交易是最容易进行利益转移的）。</p>
+<p>（2）浏览附注中收入、成本和费用项目的明细和变动。</p>
+<p>收入在我看来是最重要和值得关注的项目，一方面公司经营状况和趋势都体现在收入之中，理解公司的收入内容、结构、市场竞争力和未来趋势较为重要；另一方面，大多数行业中，会计收入确认与一般人的商业常识和理解十分贴近，不像成本确认那么复杂（<strong>像制造业和房地产业等成本的成本计算，成本计算容易出错</strong>。假设利润率为10%，如果成本多计了1%，利润可能就减少9%左右）。对于收入，比如举个例子：最新上市的云游Forgame，会从两个维度列表披露自主研发运营游戏的分成收入和91wan的推广运营分成收入明细、比例和每年变动，以及游戏发布和退市的数量和分布，甚至告诉你研发者和推广运营者的利益分成大概是2:8（你还会看到，Forgame研发的游戏在别人平台上发布的收入远高于自己平台上发布的收入然后进一步去挖掘信息和思考）。对于成本费用，主要也是看结构和内容，比如对Forgame，我会看他的人工成本（主要分研发和91wan运营）有多少，推广费用有多少（或者你也有意识到，最近两年，网游广告非常多，Forgame的推广费用支出增长非常厉害，而且最近一年，推广费用增长速度超过了收入的增长速度）。</p>
+<p>（3）浏览资产负债表结构。</p>
+<p>看两年现金余额以及现金流量表的收入支出分布。拿应收账款余额除以月均营业收入，看应收账款到底大致相当于几个月的收入（应付账款类似），掂量一下靠不靠谱，无法掂量也可以知道一下有个底。现金+各种应收应付款的净额可视为一个公司可确定的类现金资产（补充：A股个别公司预付账款很大的，在会计上经常是做错账，比如将预付购置固定资产计入了流动资产）。土地和房产的市价和账上价值差别比较大，需要单独拿出来划分出来看，专用机器和软件、长期待摊费用以及商誉大多数时候可以视为低价值或无价值资产，因为卖出去不值钱，而其挣钱能力已经纳入利润表分析中已反映的盈利能力了。</p>
+<p>看利润表是想知道公司最近几年都挣了多少钱以及增长率如何，可以粗略但不太合理地匡算它未来10年能赚多少钱。</p>
+<p>看资产负债表是想知道公司现在手上有几类现金资产。</p>
+<p>这两者加起来就是公司的绝对估值，不准确，但可以心里有底。看利润表比看资产负债表要花时间得多，因为资产负债表反映的净资产是已经存在的事实，它是多少就是多少，八九不离十；但看利润表的收入、成本和费用，了解背后的业务经营状况，以及行业前景、竞争状况和企业的竞争力，进而来预测公司未来盈利前景和增长率，才是最核心和最困难的地方。</p>
+<p>（4) 关于现金流量表：可能学会计的才知道，现金流量表是根据资产负债表和利润表倒算出来的，并不是每一笔现金流的汇总（官方指引就是这样编制的，也没有公司做账会去精细到划分现金流量类别）。所以，现金流量表并不重要，因为他所反映的事实，已经分散在资产负债表和利润表的明细里面，他仅仅起到辅助作用。</p>
+<p>比如：一个公司赚很多钱，现金却没增加，如果没有现金流量表，我需要去看费用支出情况和资产增减的情况来了解公司的现金到底花去哪了；</p>
+<p>有了现金流量表，我们可以把现金流量表当作去目录去查看，就可以更快定位现金增减在哪里。</p>
+<p>另外，现金流量表涉及较多计算过程，如果编制者不细致还容易会算错，再之现金流量表有些项目是列示”总额“还是”净额“，编报表的人也很容易出错，看报表的人自然就会不太肯定或信任。所以，现金流量表在我看来，仅仅是一个承担一个现金流量的”目录“的角色，而且还要小心它到底有没有计算对。</p>
+<p>补充：有些财经媒体对现金流量表的过度解读是很费解的，比如理财周报上这篇：《万福生科如何造假》，倒数第二段讲到现金流量表和资产负债表存在的逻辑矛盾。我没有仔细看万福生科的财报，但分析方式是有问题的：</p>
+<p>其一，现金流量表是倒算出来的，有逻辑错误只能说明他计算不对，财报质量有严重问题，跟造假还不能产生直接联系，造假本身不会导致会计逻辑错误，最多只会导致数据看起来不符合商业逻辑；</p>
+<p>其二，购建固定资产预付款属于非流动资产，本来不会在预付账款反映。）</p>
+<p>（5)  财报中我会忽略不看的东西：</p>
+<p>（1）税项：税务是最复杂的会计处理内容之一。但可能我比较另类，我几乎从来不看；因为上市公司相对守法，只要按规定交税，如果你了解税法，那它是怎样就是怎样了，无关一个企业的盈利和成长能力；</p>
+<p>（2）非经常性损益：非经常性损益无关一个公司的核心能力，它所产生的一次性后果已经反映在资产负债表了（比如政府给公司补偿发了100万元，这100万元已经变成现金体现中公司的现有价值上了，在利润表上我会当他没发生过）；对重大非经常性损益我才会去看，比如像A股上卖锅的爱仕达，因为政府征地补偿了上亿的现金，那我会猜想，这公司拿到大笔钱后会怎么花，能否促进创新和研发。</p>
+<p>（3）其他不重大的财表项目，比如如果其他应收款金额一直都不重大，我就完全不看他了。</p>
+<p>（4）大多数会计政策：财报中会有会计政策的长篇幅，我只会选择性看个别独特的东西，比如制造业中的折旧政策，收入成本很难划分的公司采用的确认方法，其他大多数完全忽略。</p>
+<p>（6）将财报浏览完后，就已经大体上了解公司的资产规模和经营状况，包括利润率是多高，是轻资产还是重资产等等，但是如果不是业内人士，很难判断经营收支是否符合商业逻辑（比如最近有人质疑中银绒业的存货高到让人难以置信），这就需要尽可能需要寻找业务接近的公司财报来做比较，这也应该是所有财报使用者避免不了要做的事。</p>
+<p>看单一公司的财报只能看到单一的事实，而缺乏一个衡量比较的基准容易会使人缺乏方向感，如果能做到纵观同行业、相近行业和不同行业的财报，看财报就能在心里有所比较，心里更有底，所以，到底还是得多看。</p>
+<p>而对于估值，专业投资或分析人员会将多年财报数据罗列出来，采现金流量折现等方法进行估值（在人大经济论坛可以找到一些可参考的模版），估值涉及假设过多从而难以量化准确，但依然有重大参考意义；对于时间有限的业余人士，拿最近几年的利润和净资产做一个粗略的估值计算，在考虑股票流动性产生的财富放大效应的基础上，与市值做比较，也多少可以让自己心里有些底。</p>
+<h4 id="三做空者角度">三、做空者角度</h4>
+<p>最近几年出现一些中概股做空事件。做空者看财报目的是找茬，分析不符合会计逻辑或商业逻辑的地方，然后进行调查取证和合理性分析。</p>
+<p>因为做空者往往并不是行内人士，我猜他们应该是从对比同行业企业的财报开始，来定位不合理之处。不过调查取证则相当困难，比如题为《在中国挖掘公司内幕的高昂代价》的媒体报道中的案例。另外，我猜也可能选择一些容易涉假的企业来调查分析，比如大经销商占收入比重高且集中，而卖的又是消费品产品的企业，可能会更易于将货品提前存放到经销商创造虚假销售收入和应收账款而审计者可能无能为力；又比如一些重资产的农业企业，经常很难算清楚农业资产的数量和价值，如果是境外上市以IFRS列报，以估值来确认资产价值也很容易出问题，如嘉汉林业；企业掌门人文化水平低的，也可能有更多的涉假倾向，如万福生科。</p>
+  </div>
+
+  <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">G Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-05-06 00:00
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/wechat.png">
+        <span>微信</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/alipay.png">
+        <span>支付宝</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+    <div class="post-tags">
+      <a href="/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/">财务分析</a>
+      </div>
+    <nav class="post-nav">
+      <a class="prev" href="/post/analyse/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">财务分析一般会有哪些思路和方法？</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+      <a class="next" href="/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC7%E5%8F%B7%E8%BD%BB%E8%B5%84%E4%BA%A7%E7%B1%BB%E5%85%AC%E5%8F%B8%E6%94%B6%E7%9B%8A%E6%B3%95%E8%AF%84%E4%BC%B0/">
+        <span class="next-text nav-default">会计监管风险提示第7号—轻资产类公司收益法评估</span>
+        <span class="next-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav>
+  </footer>
+  <script src="https://utteranc.es/client.js"
+          repo="seymourgao/blog"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterance.</a></noscript>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.5942e7b2.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

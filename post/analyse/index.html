@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>财务分析一般会有哪些思路和方法？ - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content="大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/post/analyse/" />
+<link href="/post/analyse/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/analyse/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c474d049.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="财务分析一般会有哪些思路和方法？" />
+<meta property="og:description" content="大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/post/analyse/" />
+<meta property="article:published_time" content="2018-05-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-05-13T00:00:00+00:00" />
+<meta itemprop="name" content="财务分析一般会有哪些思路和方法？">
+<meta itemprop="description" content="大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构">
+<meta itemprop="datePublished" content="2018-05-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1884">
+
+
+
+<meta itemprop="keywords" content="财务分析," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="财务分析一般会有哪些思路和方法？"/>
+<meta name="twitter:description" content="大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title=""></li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title=""></a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  
+  <header class="post-header">
+    <h1 class="post-title">财务分析一般会有哪些思路和方法？</h1>
+
+    <div class="post-meta">
+      <span class="post-time"> 2018-05-13 00:00 </span>
+      <div class="post-category">
+        <a href="/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/"> 财务分析 </a>
+        </div>
+      <span class="more-meta"> 约 1884 字 </span>
+      <span class="more-meta"> 预计阅读 4 分钟 </span>
+      <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+    </div>
+  </header>
+
+  <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+  <div class="post-outdated">
+    <div class="hint">
+      <p>【注意】最后更新于 <span class="timeago" datetime="2018-05-13T00:00:00" title="May 13, 2018">May 13, 2018</span>，文中内容可能已过时，请谨慎使用。</p>
+    </div>
+  </div>
+  <div class="post-content">
+    <p>大多数财务分析都是从报表开始的，通过各种财务指标的计算得出一个结论，比如资产负债率过高，流动性差，固定资产占比过高等等，如果分析人是投资机构或债权人，一般也够用了。如果是为企业的管理者提供财务分析的报告，这还远远不够，我们还得分析业务，分析各种管理制度，分析企业文化，甚至分析人性。</p>
+<p>下面我就举个案例，也是我目前做过最好的一个财务分析，主要讲思路，你可以把它当侦探故事看。</p>
+<p>背景公司是一家大型出版集团，集团有十家出版社，合并报表上显示三年多的时间，集团的图书库存从7个亿涨到了10个亿，集团领导和上级主管都很崩溃，大会小会都开了，目标也很明确，压库存，可库存就是压不下来，原因到底在那？</p>
+<p>第一个层面——财务指标分析</p>
+<p>为了压库存集团财务出过很多财务分析报告，很多都停留在这个层面，流动比率、速动比率，图书分类，图书库龄，图书种类，各种数据都有。大部分都是无用功，几十页纸的报告，主要结论就是图书库存大，但这有什么用？把三年报表拿出来一对比就行了，外行也可能看出来，库存涨了！你把大家都知道的事换个花样再说一遍有什么用，问题是为什么涨对不对？！</p>
+<p>第二个层面——分析业务实质</p>
+<p>财务是发现问题，造成问题的责任人还是业务，所以财务分析报告一定要分析业务。集团的财务人员当然也会从业务上找原因。大家认为图书库存的上涨的主要原因是印多了卖不掉！有可能是市场误判，一本书编辑很看好，一印就是二万册，结果只卖了五千，剩下的就积压了，所以有人建议加强市场调研，加大对当事人的奖惩，在选题时就把印数压下来。</p>
+<p>又有人出来说这都是表面现象，图书多印的主要原因是多印的印制成本低，在印刷厂的报价里，印五百本书和印五千本书的价格是一样的（当然纸张成本不一样），为了降低单书成本，所以社里才多印的，解决办法是更新印刷设备（印刷厂也是集团内部的），把印制成本降下来，如果五百本的印制成本只有五千本的十分之一，出版社当然会选择先少印点，不够再加嘛！</p>
+<p>还有人说是渠道问题，因为传统出版社的销售渠道以门店为主，一个门店放五十本书，一百个门店就要放五千本了，印少了发货的门店就少，会影响销售。解决的办法是调整渠道，加大线上销售的比重，比如在当当、淘宝上做推广，网店不用放那么多书，谁卖直发过去就行，可以实现零库存。</p>
+<p>我的意见是：以上说法都有道理，也都是图书库存积压的主要原因，但这些问题三年前也存在，十年前也存在，为什么以前库存量比较稳定，这三年涨了那么多？所以关键问题还是没找到。</p>
+<p>第三个层面——分析人心</p>
+<p>我分析了公司近三年的库存结构，发现库存商品总额变化并不大，虽然也有增长，但都是随着营收同比增加的。只有发生商品，3个亿的存货增长，有2.2亿是发出商品增长导致的，说明问题出在发出商品上面的。</p>
+<p>发出商品为什么增加？这就要从集团公司的资金管理政策和考核制度说起。三年前这家出版集团推出了资金集中管理制度，要求所有下属单位的银行存款都要实时向上归集，由集团本部统一管理，本来大家手里有点钱可以买买理财，现在不行了，每年分点利息和一年期存款差不多。虽然资金集中管理对整个集团有利，但算小账下属单位没得到好处。</p>
+<p>这也就算了，考核却一年比一年严，收入要增长，利润更要增长，利润考核指标的权重达到了70%以上，不达标就影响个人收入。</p>
+<p>于是大伙就想到了把资金放出去生利的主意，直接对外放款是不可能的，上级单位也不会批准，但可以换一个形式呀。出版社与书商销售结算货款一般是半年一次，现在可以放宽，改成一年，甚至一年半结算一次，这就相当于把自己的钱无偿借给书商使用。当然真免也不至于，利息不收，扣点可以多加一点，这样一年销售额没怎么增长，毛利率却增加了，年度绩效考核完成任务就有了保证。</p>
+<p>为什么不开票放在存货科目里？因为不开票就可以不结算，这就相当于藏钱在客户那里，什么时候有需要了想开多少就有多少，方便调节，放在应收账款科目就不方便了，目标太明显。</p>
+<p>看到这里你应该明白了，所谓存货增加是表面现象，其实增加的是债权，是没开票的应收账款。所谓图书毛利增加也是表面现象，真正增加的利息收入。</p>
+<p>不管存货增加还是应收账款增加，钱放在客户手里总是有风险的，而且有求于人，利息收入不可能按市场价收，甚至可能不收落到了个人口袋，本来集团加强考核、归集资金是为了防范经营财务风险，现在风险反而加大了。</p>
+<p>怎么解决？很简单，考核方面要加大现金流量指标的考核比重，要求出版社不仅要保利润更要保回款；严查图书销售合同条款，超过半年回款的必须说明理由，否则不得超期结算；适当提高各社归集户存款收益，提高各社存款积极性。</p>
+<p>财务分析就是这样，只要能透过现象看到本质，就能很容易找到解决办法。</p>
+
+  </div>
+
+  <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">G Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-05-13 00:00
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/wechat.png">
+        <span>微信</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/alipay.png">
+        <span>支付宝</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+    <div class="post-tags">
+      <a href="/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/">财务分析</a>
+      </div>
+    <nav class="post-nav">
+      <a class="prev" href="/post/inventory/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">存货跌价准备如何影响利润？</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+      <a class="next" href="/post/financial/">
+        <span class="next-text nav-default">专业人士看企业的财务报表的思路?</span>
+        <span class="next-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav>
+  </footer>
+  <script src="https://utteranc.es/client.js"
+          repo="seymourgao/blog"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterance.</a></noscript>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.5942e7b2.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>调还是不调，这是一个问题——资产负债表日后事项的会计处理 - 不忘初心</title>
+    <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="G Gao" /><meta name="description" content="😄
+企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。
+是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。
+" /><meta name="keywords" content="python, hugo" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://seymourgao.github.io/post/adjust/" />
+<link href="/post/adjust/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/adjust/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c474d049.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/reset-even.css">
+
+
+<meta property="og:title" content="调还是不调，这是一个问题——资产负债表日后事项的会计处理" />
+<meta property="og:description" content="😄
+企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。
+是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://seymourgao.github.io/post/adjust/" />
+<meta property="article:published_time" content="2018-09-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-09-02T00:00:00+00:00" />
+<meta itemprop="name" content="调还是不调，这是一个问题——资产负债表日后事项的会计处理">
+<meta itemprop="description" content="😄
+企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。
+是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。">
+<meta itemprop="datePublished" content="2018-09-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-09-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="991">
+
+
+
+<meta itemprop="keywords" content="会计," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="调还是不调，这是一个问题——资产负债表日后事项的会计处理"/>
+<meta name="twitter:description" content="😄
+企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。
+是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。"/>
+
+</head>
+<body>
+<div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">不忘初心</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <a href="/">
+            <li class="mobile-menu-item" title="首页">首页</li>
+        </a>
+        <a href="/post/">
+            <li class="mobile-menu-item" title="归档">归档</li>
+        </a>
+        <a href="/categories/">
+            <li class="mobile-menu-item" title="分类">分类</li>
+        </a>
+        <a href="/tags/">
+            <li class="mobile-menu-item" title="标签">标签</li>
+        </a>
+        <a href="/about/">
+            <li class="mobile-menu-item" title="关于我">关于我</li>
+        </a>
+        <a href="https://github.com/">
+            <li class="mobile-menu-item" title=""></li>
+        </a>
+        
+    </ul>
+    <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+</nav>
+
+<div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+    <a href="/" class="logo">不忘初心</a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu" data-sum="0">
+        
+        <li class="menu-item menu-item-home">
+            <a class="menu-item-link" href="/" title="首页">首页</a>
+        </li>
+        
+        <li class="menu-item menu-item-archives">
+            <a class="menu-item-link" href="/post/" title="归档">归档</a>
+        </li>
+        
+        <li class="menu-item menu-item-categories">
+            <a class="menu-item-link" href="/categories/" title="分类">分类</a>
+        </li>
+        
+        <li class="menu-item menu-item-tags">
+            <a class="menu-item-link" href="/tags/" title="标签">标签</a>
+        </li>
+        
+        <li class="menu-item menu-item-about">
+            <a class="menu-item-link" href="/about/" title="关于我">关于我</a>
+        </li>
+        
+        <li class="menu-item menu-item-reading-list">
+            <a class="menu-item-link" href="https://github.com/" title=""></a>
+        </li>
+        
+    </ul>
+</nav>
+
+        <form class="search-form" style="position: absolute;">
+    <input name="search" type="search" style="height: 28px;padding-left: 30px;"/>
+    <input type="image" src="/img/search.svg" alt="Search" style="position: absolute;left: 6px;top: 6px;"/>
+</form>
+
+
+
+    </header>
+
+
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="content" class="content">
+                <article class="post">
+  
+  <header class="post-header">
+    <h1 class="post-title">调还是不调，这是一个问题——资产负债表日后事项的会计处理</h1>
+
+    <div class="post-meta">
+      <span class="post-time"> 2018-09-02 00:00 </span>
+      <div class="post-category">
+        <a href="/categories/%E4%BC%9A%E8%AE%A1%E5%A4%84%E7%90%86/"> 会计处理 </a>
+        </div>
+      <span class="more-meta"> 约 991 字 </span>
+      <span class="more-meta"> 预计阅读 2 分钟 </span>
+      <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+    </div>
+  </header>
+
+  <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+  <div class="post-outdated">
+    <div class="hint">
+      <p>【注意】最后更新于 <span class="timeago" datetime="2018-09-02T00:00:00" title="September 2, 2018">September 2, 2018</span>，文中内容可能已过时，请谨慎使用。</p>
+    </div>
+  </div>
+  <div class="post-content">
+    <p>😄</p>
+<p>企业会计准则第29号——资产负债表日后事项可以算最没有存在感的项目之一了。会计报表附注对资产负债表日后事项有专门的事项，但大多数公司在填报时都只会写上一个字——“无”。</p>
+<p>是真没有还是没在意呢？以上市公司年报为例，我国的1到4月份是上市公司年报报送期，四个月的时间，占到一年的三分之一了。即使有公司早一点报送也有二三个月的时间了，说这期间偌大的公司一点日后事项都没有，而且是好几年、大多数公司都没有，显然是有问题的。</p>
+<p>从会计到审计，大伙对日后事项都不怎么重视。毕竟年报期时间紧任务重，上一年的事还没搞清，谁</p>
+<p>还在意当前的事呢，有事也是能拖就拖，力争放到明年年报时再说。</p>
+<p>可没有重视的日后事项真重视起来还是满重要的，这里就举一个案例。</p>
+<p>A公司有一笔对B公司的应收账款1000万元，在还在授信期，按会计政策2018年底提了5%坏账准备。到了19年2月发现B公司老板因赌博输钱跑路了，B公司资金支付出现了困难。此时公司年报还没有对外披露，明显的资产负债表日后事项，问题是日后事项还分调整事项和非调整事项。我们要不要因此对将报送的报表进行调整呢？</p>
+<p>按准则的说法，区分调整还是非调整的关键是事件的发生是在资产负债表日之前还是之后，即B公司老板赌博输钱导致公司资金断裂是18年12月31号之前的事还是之后的事。如果是之前的事，那就是要针对这笔应收款专项计提坏账准备，多则全额计提，少则一半。如果之后的事，那就可以不动18年报表，只在会计报表附注——资产负债表日后事项中提示一下即可。理论说起来容易，操作就有难度。B公司老板赌博不是一天两天了，外人很难分清到底那天输的钱。所以调整还是不调整A公司是有一定主动权的，因为没到付款期，它可以对B公司的事视而不见，还是写“无”，它也可以声称此事是19年的事，只说不动。当然如果A公司18年经营业绩不错，它也可能提交一些B公司在18年经营不善的证据，直接在18年补提500到1000万的坏账准备。不论那一种方案，我们没有足够的证据反驳。</p>
+<p>下面就是盈余管理的事了，如果2018年利润不错，盈利超出预期，但公司对2019年不看法，那就可以在18年进行调整，补提一部分坏账准备，这样2019年就可以少提坏账，相当于存一笔利润。如果2018年任务只是刚刚完成，提了坏账就会导致利润下降甚至亏损，那就放到下一年再说，能拖一年是一年。</p>
+<p>不要小看任何一个细节，往往小细节能解决大问题！</p>
+  </div>
+
+  <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">G Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-09-02 00:00
+        
+    </span>
+  </p>
+  
+  
+</div>
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/wechat.png">
+        <span>微信</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/images/alipay.png">
+        <span>支付宝</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
+    <div class="post-tags">
+      <a href="/tags/%E4%BC%9A%E8%AE%A1/">会计</a>
+      </div>
+    <nav class="post-nav">
+      <a class="prev" href="/post/cashflow/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">现金流编制</span>
+        <span class="prev-text nav-mobile">上一篇</span>
+      </a>
+      <a class="next" href="/post/zaoj/">
+        <span class="next-text nav-default">如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？</span>
+        <span class="next-text nav-mobile">下一篇</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    </nav>
+  </footer>
+  <script src="https://utteranc.es/client.js"
+          repo="seymourgao/blog"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterance.</a></noscript>
+</article>
+            </div>
+            
+
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="social-links">
+  <a href="mailto:gxlibra@gmail.com" class="iconfont icon-email" title="email" rel="noopener" target="_blank" data-title="email"> </a>
+  <a href="https://github.com/" class="iconfont icon-github" title="github" rel="noopener" target="_blank" data-title="github"> </a>
+  <a href="https://www.zhihu.com/" class="iconfont icon-zhihu" title="zhihu" rel="noopener" target="_blank" data-title="zhihu"> </a>
+  <a href="https://seymourgao.github.io/index.xml" type="application/rss+xml" rel="noopener" target="_blank" class="iconfont icon-rss" title="rss"></a>
+
+
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 -
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy;
+    2017 -
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">G Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+    </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "zh-CN".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+<script type="text/javascript" src="/dist/even.5942e7b2.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159904978-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
