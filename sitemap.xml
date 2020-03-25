@@ -352,6 +352,27 @@
   </url>
   
   <url>
+    <loc>https://seymourgao.github.io/tags/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/jian/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://seymourgao.github.io/post/nianbao/</loc>
     <lastmod>2018-12-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -403,20 +424,6 @@
   <url>
     <loc>https://seymourgao.github.io/post/baobiaoxiushi/</loc>
     <lastmod>2018-09-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/tags/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/categories/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
-    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
