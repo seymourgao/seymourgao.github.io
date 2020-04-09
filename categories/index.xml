@@ -6,7 +6,7 @@
     <description>Recent content in Categories on 不忘初心</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Mar 2020 22:47:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 19:44:05 +0800</lastBuildDate>
     
 	<atom:link href="https://seymourgao.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,9 @@
     <item>
       <title>证监会</title>
       <link>https://seymourgao.github.io/categories/%E8%AF%81%E7%9B%91%E4%BC%9A/</link>
-      <pubDate>Sun, 08 Mar 2020 22:47:44 +0000</pubDate>
+      <pubDate>Mon, 06 Apr 2020 19:44:05 +0800</pubDate>
       
       <guid>https://seymourgao.github.io/categories/%E8%AF%81%E7%9B%91%E4%BC%9A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interview</title>
-      <link>https://seymourgao.github.io/categories/interview/</link>
-      <pubDate>Sun, 08 Mar 2020 20:49:36 +0800</pubDate>
-      
-      <guid>https://seymourgao.github.io/categories/interview/</guid>
       <description></description>
     </item>
     
@@ -80,6 +71,15 @@
       <pubDate>Thu, 07 Nov 2019 21:39:58 +0000</pubDate>
       
       <guid>https://seymourgao.github.io/categories/Excel%E5%87%BD%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数据可视化</title>
+      <link>https://seymourgao.github.io/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
       <description></description>
     </item>
     

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Excel常用函数（一） - 不忘初心</title>
+    <title>Tableau模拟某公司销售额与利润分析 - 不忘初心</title>
     <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="G Gao" /><meta name="description" content="Excel函数" /><meta name="keywords" content="python, hugo" />
+<meta name="author" content="G Gao" /><meta name="description" content="tableau" /><meta name="keywords" content="python, hugo" />
 
 
 
@@ -26,9 +26,9 @@
 <meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
 
 
-<link rel="canonical" href="https://seymourgao.github.io/post/2020/third/" />
-<link href="/post/2020/third/" rel="alternate" type="application/rss+xml" title="不忘初心" />
-<link href="/post/2020/third/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="canonical" href="https://seymourgao.github.io/post/leas/" />
+<link href="/post/leas/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/leas/" rel="feed" type="application/rss+xml" title="不忘初心" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,23 +41,23 @@
 <link rel="stylesheet" href="/css/reset-even.css">
 
 
-<meta property="og:title" content="Excel常用函数（一）" />
-<meta property="og:description" content="Excel函数" />
+<meta property="og:title" content="Tableau模拟某公司销售额与利润分析" />
+<meta property="og:description" content="tableau" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://seymourgao.github.io/post/2020/third/" />
-<meta property="article:published_time" content="2019-11-07T21:39:58+00:00" />
-<meta property="article:modified_time" content="2019-11-07T21:39:58+00:00" />
-<meta itemprop="name" content="Excel常用函数（一）">
-<meta itemprop="description" content="Excel函数">
-<meta itemprop="datePublished" content="2019-11-07T21:39:58&#43;00:00" />
-<meta itemprop="dateModified" content="2019-11-07T21:39:58&#43;00:00" />
-<meta itemprop="wordCount" content="886">
+<meta property="og:url" content="https://seymourgao.github.io/post/leas/" />
+<meta property="article:published_time" content="2019-11-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-11-02T00:00:00+00:00" />
+<meta itemprop="name" content="Tableau模拟某公司销售额与利润分析">
+<meta itemprop="description" content="tableau">
+<meta itemprop="datePublished" content="2019-11-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="110">
 
 
 
-<meta itemprop="keywords" content="Excel函数," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Excel常用函数（一）"/>
-<meta name="twitter:description" content="Excel函数"/>
+<meta itemprop="keywords" content="数据可视化," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tableau模拟某公司销售额与利润分析"/>
+<meta name="twitter:description" content="tableau"/>
 
 </head>
 <body>
@@ -153,15 +153,15 @@
                 <article class="post">
   
   <header class="post-header">
-    <h1 class="post-title">Excel常用函数（一）</h1>
+    <h1 class="post-title">Tableau模拟某公司销售额与利润分析</h1>
 
     <div class="post-meta">
-      <span class="post-time"> 2019-11-07 21:39 </span>
+      <span class="post-time"> 2019-11-02 00:00 </span>
       <div class="post-category">
-        <a href="/categories/Excel%E5%87%BD%E6%95%B0/"> Excel函数 </a>
+        <a href="/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"> 数据可视化 </a>
         </div>
-      <span class="more-meta"> 约 886 字 </span>
-      <span class="more-meta"> 预计阅读 2 分钟 </span>
+      <span class="more-meta"> 约 110 字 </span>
+      <span class="more-meta"> 预计阅读 1 分钟 </span>
       <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
     </div>
   </header>
@@ -171,137 +171,33 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#if函数">IF函数</a></li>
-        <li><a href="#ifs函数">IFS函数</a></li>
-        <li><a href="#sunif函数">SUNIF函数</a></li>
-        <li><a href="#countif函数">COUNTIF函数</a></li>
-        <li><a href="#textjoin函数">TEXTJOIN函数</a></li>
-      </ul>
-    </li>
+    <li><a href="#依赖">依赖</a></li>
+    <li><a href="#结果展示">结果展示</a></li>
   </ul>
 </nav>
   </div>
 </div>
   <div class="post-content">
-    <p>excel中有很多有用的函数，这里列举几个常用的。</p>
-<h3 id="if函数">IF函数</h3>
-<p>IF 是用的最多的函数，是用来判断条件的语句。使用方法如下</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IF(判断条件,判断条件为真的返回值,判断条件为假的返回值)
-</code></pre></td></tr></table>
-</div>
-</div><p>其中第三个参数可以不填，此时就不会返回了。</p>
-<p>判断条件可以通过 大于&gt;、小于&lt;、等于＝，和运算AND、或运算OR、否运算NOT一起配合使用。</p>
-<p>当然还有很多函数的返回值也可以直接嵌入进去使用。</p>
-<h4 id="条件函数的嵌套">条件函数的嵌套</h4>
-<p>有的时候需要更多的分支，此时就需要通过嵌套来实现。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IF(判断条件1,IF(判断条件2,判断条件2为真的返回值,判断条件2为假的返回值),判断条件1为假的返回值)
-</code></pre></td></tr></table>
-</div>
-</div><p>这个结构如果用伪代码来表达，大概是这样的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">if</span><span class="p">(</span><span class="nx">判断条件1</span><span class="p">){</span>
-    <span class="k">if</span><span class="p">(</span><span class="nx">判断条件2</span><span class="p">){</span>
-        <span class="k">return</span> <span class="nx">判断条件2为真的返回值</span>
-    <span class="p">}</span><span class="k">else</span><span class="p">{</span>
-        <span class="k">return</span> <span class="nx">判断条件2为假的返回值</span>
-    <span class="p">}</span>
-<span class="p">}</span><span class="k">else</span><span class="p">{</span>
-    <span class="nx">判断条件1为假的返回值</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>同理，你也可以把嵌套写很多层，但结果就是公式又臭又长，无法阅读。</p>
-<h3 id="ifs函数">IFS函数</h3>
-<p>IFS其实有点像其他语言中的switch结构，通过多个判断条件来返回不同的值。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= IFS(判断条件1,判断条件1为真的返回值,判断条件2,判断条件2为真的返回值,判断条件3,判断条件3为真的返回值......)
-</code></pre></td></tr></table>
-</div>
-</div><p>这个结构如果用伪代码来表达，大概是这样的：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">switch</span> <span class="p">(</span><span class="kc">true</span><span class="p">){</span>
-    <span class="k">case</span> <span class="nx">判断条件1</span><span class="o">:</span>
-        <span class="k">return</span> <span class="nx">判断条件1为真的返回值</span><span class="p">;</span>
-        <span class="k">break</span><span class="p">;</span>
-    <span class="k">case</span> <span class="nx">判断条件2</span><span class="o">:</span>
-        <span class="k">return</span> <span class="nx">判断条件2为真的返回值</span><span class="p">;</span>
-        <span class="k">break</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="sunif函数">SUNIF函数</h3>
-<p>如果需要条件求和，你就需要这个函数了。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= SUMIF(求和区域,判断条件)
-</code></pre></td></tr></table>
-</div>
-</div><p>如果要加上更多的判断条件，可以使用SUMIFS函数。</p>
-<h3 id="countif函数">COUNTIF函数</h3>
-<p>COUNTIF函数的含义是条件计数。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= COUNTIF(计数区域,判断条件)
-</code></pre></td></tr></table>
-</div>
-</div><p>如果要加上更多的判断条件，可以使用COUNTIFS函数。</p>
-<h3 id="textjoin函数">TEXTJOIN函数</h3>
-<p>作用是连接多个区域的文本，而且可以插入指定的分隔符</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">= TEXTJOIN(分隔符,是否忽略空白格,文本区域)
-</code></pre></td></tr></table>
-</div>
-</div><p>一个比较有用的场景是，如果要连接多格子的数据组成csv的行，可以用<code>TEXTJOIN(&quot;,&quot;,FALSE,文本区域)</code>进行连接。</p>
-<p>这里面使用FALSE是因为不能忽略空白格，否则会错乱。</p>
+    <h1 id="tableau模拟某公司销售额与利润分析">Tableau模拟某公司销售额与利润分析</h1>
+<p>利用tableau导入excel数据对数据进行分析、绘图，分析最近几年销售额与利润在不同区域、 销售商品的表现，最后形成可视化数据的输出，对公司未来的销售计划提供建议。</p>
+<h2 id="依赖">依赖</h2>
+<ul>
+<li>tableau</li>
+</ul>
+<h2 id="结果展示">结果展示</h2>
+<p><img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page1.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page2.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page3.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page4.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page5.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page6.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page7.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page8.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page9.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page10.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page11.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page12.png" alt="">
+<img src="https://github.com/seymourgao/Photo/blob/master/%E9%94%80%E5%94%AE%E9%A2%9D%E4%B8%8E%E5%88%A9%E6%B6%A6%E5%88%86%E6%9E%90_Page13.png" alt=""></p>
   </div>
 
   <div class="post-copyright">
@@ -312,7 +208,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2019-11-07 21:39
+        2019-11-02 00:00
         
     </span>
   </p>
@@ -335,16 +231,16 @@
   </div>
 </div><footer class="post-footer">
     <div class="post-tags">
-      <a href="/tags/Excel%E5%87%BD%E6%95%B0/">Excel函数</a>
+      <a href="/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/">数据可视化</a>
       </div>
     <nav class="post-nav">
-      <a class="prev" href="/post/2020/four/">
+      <a class="prev" href="/post/2020/third/">
         <i class="iconfont icon-left"></i>
-        <span class="prev-text nav-default">Python 批量合并 Excel 文件</span>
+        <span class="prev-text nav-default">Excel常用函数（一）</span>
         <span class="prev-text nav-mobile">上一篇</span>
       </a>
-      <a class="next" href="/post/leas/">
-        <span class="next-text nav-default">Tableau模拟某公司销售额与利润分析</span>
+      <a class="next" href="/post/piao/">
+        <span class="next-text nav-default">非法买卖增值税发票是怎样获利的？</span>
         <span class="next-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
       </a>
