@@ -14,7 +14,7 @@
     <item>
       <title>2018年上市公司年报问题汇总整理</title>
       <link>https://seymourgao.github.io/post/shenji/</link>
-      <pubDate>Mon, 06 Apr 2020 19:44:05 +0800</pubDate>
+      <pubDate>Sat, 04 Apr 2020 19:44:05 +0800</pubDate>
       
       <guid>https://seymourgao.github.io/post/shenji/</guid>
       <description></description>
@@ -26,6 +26,15 @@
       <pubDate>Tue, 24 Mar 2020 13:25:47 +0800</pubDate>
       
       <guid>https://seymourgao.github.io/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>利用数据分析识别潜在财务报表风险的案例</title>
+      <link>https://seymourgao.github.io/post/sjfx/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/sjfx/</guid>
       <description></description>
     </item>
     
@@ -185,15 +194,6 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
       
       <guid>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</guid>
       <description>现金流量表编制过程中的特殊考虑都有什么？ 目前，现金流量表的编制方法包括公式法、工作底稿法、记账凭证法等。无论采用哪一种方法，其编制原理基本一</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://seymourgao.github.io/about/</link>
-      <pubDate>Wed, 24 Apr 2019 22:25:24 +0000</pubDate>
-      
-      <guid>https://seymourgao.github.io/about/</guid>
-      <description>Who am I 👍 My name is Xiang Gao, and I am an Auditor for about four years. I like to learn and write python now. I have used python for what can make my work done. Programing languages is tools, I’m being fascinated by anyone of it. I also pay attention to finance and tax knowledge in my daily work. So, you may be found some articles</description>
     </item>
     
     <item>
@@ -432,6 +432,15 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
 &lt;p&gt;资产：具有资产性质，“资产”就是将来可以“抵税”，就是比账面处理要少缴税；&lt;/p&gt;
 &lt;p&gt;负债：具有负债性质，“负债”就是将来要“多缴税税”，就是比账面处理要多缴税；&lt;/p&gt;
 &lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://seymourgao.github.io/about/</link>
+      <pubDate>Sun, 24 Jun 2018 22:25:24 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/about/</guid>
+      <description>Who am I 🔎 My name is Xiang Gao, and I am an Auditor for about four years. I like to learn and write python now. I have used python for what can make my work done. Programing languages is tools, I’m being fascinated by anyone of it. I also pay attention to finance and tax knowledge in my daily work. So, you may be found some articles</description>
     </item>
     
     <item>

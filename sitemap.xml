@@ -3,42 +3,42 @@
   
   <url>
     <loc>https://seymourgao.github.io/post/shenji/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/categories/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/post/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/tags/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/tags/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/categories/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
-    <lastmod>2020-04-06T19:44:05+08:00</lastmod>
+    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -53,6 +53,41 @@
   <url>
     <loc>https://seymourgao.github.io/</loc>
     <lastmod>2020-03-24T13:25:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/sjfx/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E8%B4%A2%E5%8A%A1/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/%E8%B4%A2%E5%8A%A1/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E8%B4%A2%E5%8A%A1%E6%8A%A5%E8%A1%A8%E9%A3%8E%E9%99%A9/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -240,20 +275,6 @@
   </url>
   
   <url>
-    <loc>https://seymourgao.github.io/tags/%E8%B4%A2%E5%8A%A1/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/categories/%E8%B4%A2%E5%8A%A1/</loc>
-    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://seymourgao.github.io/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -284,20 +305,6 @@
   <url>
     <loc>https://seymourgao.github.io/post/awesome-macos-command-line-zh/glossary/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/about/</loc>
-    <lastmod>2019-04-24T22:25:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2019-04-24T22:25:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -515,6 +522,20 @@
   <url>
     <loc>https://seymourgao.github.io/tags/%E9%80%92%E5%BB%B6%E6%89%80%E5%BE%97%E7%A8%8E%E8%B5%84%E4%BA%A7/</loc>
     <lastmod>2018-07-01T15:37:44+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/about/</loc>
+    <lastmod>2018-06-24T22:25:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2018-06-24T22:25:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
