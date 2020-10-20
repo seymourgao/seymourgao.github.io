@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？ - 不忘初心</title>
+    <title>【财务分析总结】-固定成本和变动成本 - 不忘初心</title>
     <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="G Gao" /><meta name="description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业" /><meta name="keywords" content="python, hugo" />
+<meta name="author" content="G Gao" /><meta name="description" content="深入理解固定成本与变动成本" /><meta name="keywords" content="python, hugo" />
 
 
 
@@ -26,9 +26,9 @@
 <meta name="generator" content="Hugo 0.66.0 with even 4.0.0" />
 
 
-<link rel="canonical" href="https://seymourgao.github.io/post/bfr/" />
-<link href="/post/bfr/" rel="alternate" type="application/rss+xml" title="不忘初心" />
-<link href="/post/bfr/" rel="feed" type="application/rss+xml" title="不忘初心" />
+<link rel="canonical" href="https://seymourgao.github.io/post/fix/" />
+<link href="/post/fix/" rel="alternate" type="application/rss+xml" title="不忘初心" />
+<link href="/post/fix/" rel="feed" type="application/rss+xml" title="不忘初心" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,23 +41,23 @@
 <link rel="stylesheet" href="/css/reset-even.css">
 
 
-<meta property="og:title" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？" />
-<meta property="og:description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业" />
+<meta property="og:title" content="【财务分析总结】-固定成本和变动成本" />
+<meta property="og:description" content="深入理解固定成本与变动成本" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://seymourgao.github.io/post/bfr/" />
-<meta property="article:published_time" content="2018-08-11T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-08-11T00:00:00+00:00" />
-<meta itemprop="name" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？">
-<meta itemprop="description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业">
-<meta itemprop="datePublished" content="2018-08-11T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-08-11T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="883">
+<meta property="og:url" content="https://seymourgao.github.io/post/fix/" />
+<meta property="article:published_time" content="2019-01-16T14:18:28+08:00" />
+<meta property="article:modified_time" content="2019-01-16T14:18:28+08:00" />
+<meta itemprop="name" content="【财务分析总结】-固定成本和变动成本">
+<meta itemprop="description" content="深入理解固定成本与变动成本">
+<meta itemprop="datePublished" content="2019-01-16T14:18:28&#43;08:00" />
+<meta itemprop="dateModified" content="2019-01-16T14:18:28&#43;08:00" />
+<meta itemprop="wordCount" content="1657">
 
 
 
-<meta itemprop="keywords" content="财务分析," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？"/>
-<meta name="twitter:description" content="问： 应收帐款周转率=营业收入÷应收账款 存货周转率=营业收入（营业成本）÷存货 流动资产周转率=营业收入÷流动资产 营业资本周转率=营业收入÷营业"/>
+<meta itemprop="keywords" content="总结固定成本与变动成本," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="【财务分析总结】-固定成本和变动成本"/>
+<meta name="twitter:description" content="深入理解固定成本与变动成本"/>
 
 </head>
 <body>
@@ -153,15 +153,15 @@
                 <article class="post">
   
   <header class="post-header">
-    <h1 class="post-title">财务分析中的营运能力到底有什么用？指标为什么用营业收入来除？</h1>
+    <h1 class="post-title">【财务分析总结】-固定成本和变动成本</h1>
 
     <div class="post-meta">
-      <span class="post-time"> 2018-08-11 00:00 </span>
+      <span class="post-time"> 2019-01-16 14:18 </span>
       <div class="post-category">
         <a href="/categories/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/"> 财务分析 </a>
         </div>
-      <span class="more-meta"> 约 883 字 </span>
-      <span class="more-meta"> 预计阅读 2 分钟 </span>
+      <span class="more-meta"> 约 1657 字 </span>
+      <span class="more-meta"> 预计阅读 4 分钟 </span>
       <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
     </div>
   </header>
@@ -173,33 +173,32 @@
   </div>
 </div>
   <div class="post-outdated">
-    <div class="warn">
-      <p>【注意】最后更新于 <span class="timeago" datetime="2018-08-11T00:00:00" title="August 11, 2018">August 11, 2018</span>，文中内容可能已过时，请谨慎使用。</p>
+    <div class="hint">
+      <p>【注意】最后更新于 <span class="timeago" datetime="2019-01-16T14:18:28" title="January 16, 2019">January 16, 2019</span>，文中内容可能已过时，请谨慎使用。</p>
     </div>
   </div>
   <div class="post-content">
-    <p>问：</p>
-<p><img src="C:%5CUsers%5CGAO%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200323145559944.png" alt="image-20200323145559944"></p>
-<p>应收帐款周转率=营业收入÷应收账款</p>
-<p>存货周转率=营业收入（营业成本）÷存货</p>
-<p>流动资产周转率=营业收入÷流动资产</p>
-<p>营业资本周转率=营业收入÷营业成本</p>
-<p>非流动资产周转率=营业收入÷非流动资产</p>
-<p>固定资产周转情况分析=营业收入÷固定资产</p>
-<p>总资产周转情况的分析=营业收入÷总资产</p>
-<p>净资产周转率=营业收入÷净经营资产</p>
-<p>某某周转天数=365÷某某周转次数</p>
-<p>某某与收入比=某某÷营业收入</p>
-<p>存货和应收账款的周转次数用营业收入作为分子能够理解，因为他们最终流向了营业收入。但是其他诸如流动资产、营运资本、非流动资产等为什么要用营业收入除，这些科目并不最终流向营业收入啊？是因为营业收入而产生吗？</p>
-<p>答：</p>
-<p>营运能力分析的是企业资产的运营效率，一般就是拿公司的产出量与资产占用量做对比。</p>
-<p>资产占有量不用多说，余额有多少就是多少。产出量最合适的是就是营业收入，因为收入是有效产出，与效益直接相关。</p>
-<p>所以算营运能力用营业收入当分子没有问题，有问题的是这样分析有多大用处。</p>
-<p>举个例子，AB两家超市，A超市一个月的资产运营倍数是20，B超市的资产运营倍数是15，那是不是说A超市的资产运营能力就一定比B超市高呢？其实不是，是因为两家卖的商品不一样，A超市主营生鲜，周转快，但损耗高；B超市主营日用品，周转相比慢一点，但损耗低。</p>
-<p>因为产品不一样，运营指数肯定就不一样，说明不了什么问题。</p>
-<p>那我们再找一家C超市，也是主打生鲜，算出来资产运营倍数是15，那是不是说C超市的运营能力就一定比A超市差呢，还真没那么简单。C超市虽然也是做生鲜，但经营方式与A超市不一样，A超市商品都是经销，进货都用自己的钱现货现结，占用资金量比较大；C超市的商品主要是代理商垫资进货，商品其实是代理商的，卖多少结多少，卖不掉还是代理商承担，超市本身没有风险。</p>
-<p>把代理商垫的商品去掉，C超市的资产运营倍数可以达到40、50，因为除了房租和人工，超市基本没钱，运营指数当然高。</p>
-<p>我说这个例子是想告诉大家，单从报表上取数做出来的财务分析数字没有什么意义，修饰一个财务指标比财务造假还要容易，不去了解业务、分析业务，只去分析纸面的数据，和财务造假一样也会造成很大的误导。</p>
+    <p>固定成本是指在一定的范围内不随产品产量或商品流转量变动的那部分成本。</p>
+<p>包括：企业管理费用、销售费用以及车间生产管理人员工资、职工福利费、办公费、固定资产折旧费、修理费等。</p>
+<p>变动成本是指产品成本随产品的增减而成比例地增减的费用。如直接原材料费用，直接燃料和动力费用，产品包装费等。</p>
+<p>直接人工、直接材料都是典型的变动成本，在一定期间内它们的发生总额随着业务量的增减而成正比例变动，但单位产品的耗费则保持不变。</p>
+<p>为了适应企业经营管理的需要，寻求企业的成本优势会按不同的要求或目的把成本分类，其中按成本与其业务量（产量，直接人工小时，机器小时或其他作业量）之间的依存关系分类，即成本性态，可以划分为变动成本，固定成本与混合成本。
+所谓成本性态就是业务量变动与其相应的成本变动之间的内在关系，这种关系是客观存在的，是成本固有的性质，故称”性态”。在成本管理中，进行性态分析，即成本对业务量的依存关系分析，有助于具体掌握成本也业务量之间的规律关系，为充分挖掘企业内部潜力，实行最优化管理，提高经济效益提供有价值的资料。
+一，变动成本
+变动成本是指成本总额随业务量的增减变动而成<strong>正比例关系</strong>的成本，包括直接材料，直接人工和变动制造费用等。但从单位业务量的变动来看，它又是固定的，即单位产品的变动成本不受业务量增减变动的影响。如：</p>
+<p><img src="https://pic1.zhimg.com/80/7a8104580c060c340d1e7473ea7abe31_720w.jpg" alt="img"></p>
+<p>可以看出，当产量从1000件增加到3000件时，变动成本总额也随之从40000元增加到120000元，单单位成本始终保持不变，均为40元。但值得注意的是，在实际工作中，变动成本总额与业务量之间的正比例增减变动关系只有在特定的业务量范围内存在，超过这个业务量范围的就可能表现为非正比例关系了，这个业务量范围称为“相关范围“。也就是说，在相关范围内，变动成本总额与业务量总数之间是保持严格的，完全的线性关系，但在相关范围外，就可能表现为非线性关系。
+二，固定成本
+固定成本是指成本总额在一定时期和特定业务量范围内，与业务量的增减变动没有直接关系，因此不随业务量的变动而变动的成本，如管理人员的薪金，按平均年限法计提的固定资产折旧等。固定成本的特点是：在一定的业务量范围内，固定成本总额是不随业务量变动而变动的，但就单位固定成本而言，它又是变动的，即单位业务量的固定成本是随业务量的增减成<strong>反比例变动</strong>的。
+如：</p>
+<p><img src="https://pic2.zhimg.com/80/8aa7ffff40e79035a9e767335146929b_720w.jpg" alt="img"></p>
+<p>可以看出，当产量从1000件增加到3000件时，固定成本总额始终保持不变，均为60000元，但单位固定成本却随产量的增加从60元下降到20元成反比例关系。需要强调的是，固定成本通常是一定时期和一定业务量范围内保持不变的。如果业务量超过了相关范围(3000件），固定成本总额也会发生相应的变动。如：</p>
+<p><img src="https://pic4.zhimg.com/80/6b5741af9d8753eeed5b9fd1c86ba56d_720w.jpg" alt="img"></p>
+<p>因为，当需要完成的业务量突破了现有的生产能力时，势必会增加扩建厂房，添加设备和必要的人员，从而使原有的固定成本中的折旧费和管理费等增加，这种固定成本总额受相关范围所制约的。
+在实际工作中，为了加强对固定成本的管理，需要进一步细分为约束性固定成本和酌量性固定成本。</p>
+<p>（1）<strong>约束性固定成本</strong>是指管理当局的决策行为无法改变其数额的固定成本，如固定资产折旧费，管理人员薪金等；这些成本是维持企业生产经营活动必须负担的最低成本，具有极大的约束性。如果稍有消减，势必影响企业的盈利能力和长远目标，因此约束性固定成本属于”经营能力成本“。只要企业存在，该类固定成本仍将存在。</p>
+<p>（2）<strong>酌量性固定成本</strong>是指通过管理当局的决策行为可以改变其数额的固定成本，如广告费，职工培训费等。这些成本支出对扩大企业产品销路，提高产品质量，增强竞争能力有所裨益。酌量性成本一般由企业管理层在会计年度开始前，根据计划期间企业的具体情况和财务负担能力，对各项费用分别作出决策和预算，它不是企业必不可少的费用，而是取决于管理层的短期决策。需要说明的是，虽然酌量性固定成本是由企业管理层决定的，但并非意味着它可有可无，它关系到企业竞争能力，是一种为企业的生产经营提供良好条件的成本。
+综上所述，所谓的变动成本的”变动“和固定成本的”固定“都是对一定时期和一定业务量的范围而言的。</p>
 
   </div>
 
@@ -211,7 +210,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2018-08-11 00:00
+        2019-01-16 14:18
         
     </span>
   </p>
@@ -234,16 +233,16 @@
   </div>
 </div><footer class="post-footer">
     <div class="post-tags">
-      <a href="/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/">财务分析</a>
+      <a href="/tags/%E6%80%BB%E7%BB%93%E5%9B%BA%E5%AE%9A%E6%88%90%E6%9C%AC%E4%B8%8E%E5%8F%98%E5%8A%A8%E6%88%90%E6%9C%AC/">总结固定成本与变动成本</a>
       </div>
     <nav class="post-nav">
-      <a class="prev" href="/post/zaoj/">
+      <a class="prev" href="/post/purchase/">
         <i class="iconfont icon-left"></i>
-        <span class="prev-text nav-default">如果怀疑企业财务造假，应最先核查哪个/哪几个会计科目？</span>
+        <span class="prev-text nav-default">收购一家公司，财务上需要注意什么问题？</span>
         <span class="prev-text nav-mobile">上一篇</span>
       </a>
-      <a class="next" href="/post/deferred/">
-        <span class="next-text nav-default">假设企业现有销售货物收入一千万，此前没有成本费用，在不违法的情况下，不预缴所得税，把税延到以后月份?</span>
+      <a class="next" href="/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/">
+        <span class="next-text nav-default">会计监管风险提示第8号—商誉减值</span>
         <span class="next-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
       </a>

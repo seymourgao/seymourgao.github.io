@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>总结固定成本与变动成本 on 不忘初心</title>
+    <link>https://seymourgao.github.io/tags/%E6%80%BB%E7%BB%93%E5%9B%BA%E5%AE%9A%E6%88%90%E6%9C%AC%E4%B8%8E%E5%8F%98%E5%8A%A8%E6%88%90%E6%9C%AC/</link>
+    <description>Recent content in 总结固定成本与变动成本 on 不忘初心</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 16 Jan 2019 14:18:28 +0800</lastBuildDate>
+    
+	<atom:link href="https://seymourgao.github.io/tags/%E6%80%BB%E7%BB%93%E5%9B%BA%E5%AE%9A%E6%88%90%E6%9C%AC%E4%B8%8E%E5%8F%98%E5%8A%A8%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【财务分析总结】-固定成本和变动成本</title>
+      <link>https://seymourgao.github.io/post/fix/</link>
+      <pubDate>Wed, 16 Jan 2019 14:18:28 +0800</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/fix/</guid>
+      <description>固定成本是指在一定的范围内不随产品产量或商品流转量变动的那部分成本。 包括：企业管理费用、销售费用以及车间生产管理人员工资、职工福利费、办公费</description>
+    </item>
+    
+  </channel>
+</rss>
