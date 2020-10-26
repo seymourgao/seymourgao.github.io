@@ -87,20 +87,20 @@
   
   <url>
     <loc>https://seymourgao.github.io/tags/%E5%80%9F%E6%AC%BE%E8%B4%B9%E7%94%A8%E8%B5%84%E6%9C%AC%E5%8C%96/</loc>
-    <lastmod>2020-03-26T23:22:20+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/post/lixizibenhua/</loc>
-    <lastmod>2020-03-26T23:22:20+08:00</lastmod>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/post/sjfx/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/lixizibenhua/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
