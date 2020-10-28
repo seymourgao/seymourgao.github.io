@@ -17,8 +17,8 @@
       <pubDate>Mon, 25 May 2020 17:42:37 +0800</pubDate>
       
       <guid>https://seymourgao.github.io/post/hebing/</guid>
-      <description>&lt;h3 id=&#34;笔记2020年-长期股权投资的取得方式初始成本与后续计量&#34;&gt;笔记——2020年 长期股权投资的取得方式、初始成本与后续计量&lt;/h3&gt;
-&lt;h4 id=&#34;一first先来说一下定义&#34;&gt;&lt;strong&gt;一、First先来说一下定义&lt;/strong&gt;&lt;/h4&gt;
+      <description>&lt;h1 id=&#34;笔记2020年-长期股权投资的取得方式初始成本与后续计量&#34;&gt;笔记——2020年 长期股权投资的取得方式、初始成本与后续计量&lt;/h1&gt;
+&lt;h3 id=&#34;一first先来说一下定义&#34;&gt;&lt;strong&gt;一、First先来说一下定义&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;企业会计准则定义的长期股权投资，是指投资方对被投资单位实施控制、重大影响的&lt;a href=&#34;https://wiki.mbalib.com/wiki/%E6%9D%83%E7%9B%8A%E6%80%A7%E6%8A%95%E8%B5%84&#34;&gt;权益性投资&lt;/a&gt;，以及对其&lt;a href=&#34;https://wiki.mbalib.com/wiki/%E5%90%88%E8%90%A5%E4%BC%81%E4%B8%9A&#34;&gt;合营企业&lt;/a&gt;的权益性投资。&lt;/p&gt;
 &lt;p&gt;这里说的控制，通常是指投资方能够对被投资单位实施控制的，被投资单位为其子公司&lt;/p&gt;
 &lt;p&gt;重大影响指的是投资方对被投资方的财务和经营政策有参与决策的权力，但并不能够控制或者与其他方一起共同控制这些政策的制定。&lt;/p&gt;
@@ -29,9 +29,9 @@
 &lt;p&gt;重大影响， 是指对一个企业的财务和经营决策有参与决策的权力， 但并不能够
 控制或者与其他方一起共同控制这些政策的制定。本公司能够对被投资单位施
 加重大影响的， 被投资单位为本公司&lt;a href=&#34;https://wiki.mbalib.com/wiki/%E8%81%94%E8%90%A5%E4%BC%81%E4%B8%9A&#34;&gt;联营企业&lt;/a&gt;。&lt;/p&gt;
-&lt;h4 id=&#34;二取得方式初始成本的确认及差额的调整&#34;&gt;&lt;strong&gt;二、取得方式、初始成本的确认及差额的调整&lt;/strong&gt;&lt;/h4&gt;
+&lt;h3 id=&#34;二取得方式初始成本的确认及差额的调整&#34;&gt;&lt;strong&gt;二、取得方式、初始成本的确认及差额的调整&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;这里分几种情况，有①企业合并下取得长投的，如同一控制下合并下与非同一控制合并，也有其他方式取得长投的，比如②以支付现金的方式取得、③以发行权益性证券的方式取得、④以非货币资产交换具有商业实质且换入资产或者换出资产的 公允价值能够可靠计量的情况取得、⑤通过债务重组取得的长期股权投资&lt;/p&gt;
-&lt;h5 id=&#34;企业合并同一控制下的企业合并&#34;&gt;&lt;strong&gt;①企业合并——同一控制下的企业合并&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;①企业合并——同一控制下的企业合并&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;企业以支付现金、转让非现金资产或者承担债务方式以及发行权益性证券作为合并对价的，长期股权的初始投资成本为：在&lt;strong&gt;合并日&lt;/strong&gt;按照取得被合并方所有者权益在最终控制方&lt;strong&gt;合并财务报表&lt;/strong&gt;中的&lt;strong&gt;账面价值&lt;/strong&gt;的份额作为长期股权投资的初始成本。&lt;/p&gt;
 &lt;p&gt;因追加投资等原因能够对&lt;strong&gt;同一控制下的被投资单位实施控制的&lt;/strong&gt;， 在&lt;strong&gt;合并日&lt;/strong&gt;根据合并后应享有&lt;strong&gt;被合并方净资产&lt;/strong&gt;在最终控制方&lt;strong&gt;合并财务报表&lt;/strong&gt;中的&lt;strong&gt;账面价值&lt;/strong&gt;的份额， 确定长期股权投资的初始投资成本。&lt;/p&gt;
 &lt;p&gt;合并日长期股权投资的初始投资成本，与达到合并前的长期股权投资账面价值加上合并日进一步取得股份新支付对价的账面价值之和的差额， &lt;strong&gt;调整股本溢价&lt;/strong&gt;， 股本溢价不足冲减的， &lt;strong&gt;冲减留存收益&lt;/strong&gt;。&lt;/p&gt;
@@ -198,6 +198,21 @@ $ git config --global user.email &amp;#34;email@example.com&amp;#34;
       
       <guid>https://seymourgao.github.io/post/leas/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>怎么将净利润调节为经营活动现金流量？</title>
+      <link>https://seymourgao.github.io/post/jinglirun/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/jinglirun/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;怎么将净利润调节为经营活动现金流量？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;原理如下&lt;/p&gt;
+&lt;p&gt;资产=负债+所有者权益，由此可以推出现金及现金等价物资产+非现金及现金等价物资产=负债+所有者权益，这就是为什么可以从利润表的净利润出发调整为经营活动的现金流量表。&lt;/p&gt;
+&lt;p&gt;现金流量表分为经营活动、投资活动、筹资活动，同理净利润也分为经营、投资、筹资三个方向，所以经营净利润=净利润-投资活动净利润-筹资活动净利润，由此可以衍生出经营活动净利润=净利润+投资损失+公允价值变动损失+处置固定资产、无形资产及其他长期资产产生的损失+固定资产报废的损失+财务费用（收益为负数）&lt;/p&gt;
+&lt;p&gt;我们知道利润表中反映的净利润是按权责发生制确定的，其中有些收入、费用项目并没有实际发生现金流入流出。&lt;/p&gt;
+&lt;p&gt;本期的经营净利润=本期收现本期确认收入-本期付现本期确认为费用+本期未收现但本期确认为收入-本期未付现但本期确认为费用&lt;/p&gt;
+&lt;p&gt;即净利润调整为经营活动现金流量，需要调整的项目可以分为四大类：实际没有付出现金的费用；实际没有收到现金的收益；不属于经营活动的损益；经营性应收应付项目的增减变动。&lt;/p&gt;</description>
     </item>
     
     <item>

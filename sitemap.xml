@@ -296,6 +296,27 @@
   </url>
   
   <url>
+    <loc>https://seymourgao.github.io/post/jinglirun/</loc>
+    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
+    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E7%8E%B0%E9%87%91%E6%B5%81%E9%99%84%E8%A1%A8/</loc>
+    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://seymourgao.github.io/post/piao/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -424,13 +445,6 @@
   <url>
     <loc>https://seymourgao.github.io/post/%E8%AF%81%E7%9B%91%E4%BC%9A%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/%E4%BC%9A%E8%AE%A1%E7%9B%91%E7%AE%A1%E9%A3%8E%E9%99%A9%E6%8F%90%E7%A4%BA%E7%AC%AC8%E5%8F%B7%E5%95%86%E8%AA%89%E5%87%8F%E5%80%BC/</loc>
     <lastmod>2018-12-30T23:11:44+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/tags/%E7%8E%B0%E9%87%91%E6%B5%81/</loc>
-    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
