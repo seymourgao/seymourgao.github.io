@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://seymourgao.github.io/post/20/</loc>
-    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://seymourgao.github.io/categories/</loc>
     <lastmod>2020-11-15T13:09:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,6 +17,13 @@
   
   <url>
     <loc>https://seymourgao.github.io/tags/</loc>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/post/20/</loc>
     <lastmod>2020-11-15T13:09:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
