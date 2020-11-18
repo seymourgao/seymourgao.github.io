@@ -2,22 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seymourgao.github.io/post/20/</loc>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://seymourgao.github.io/categories/</loc>
-    <lastmod>2020-05-25T17:42:37+08:00</lastmod>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/post/</loc>
-    <lastmod>2020-05-25T17:42:37+08:00</lastmod>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://seymourgao.github.io/tags/</loc>
-    <lastmod>2020-05-25T17:42:37+08:00</lastmod>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/tags/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://seymourgao.github.io/categories/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
+    <lastmod>2020-11-15T13:09:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -52,20 +73,6 @@
   
   <url>
     <loc>https://seymourgao.github.io/post/shenji/</loc>
-    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/tags/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
-    <lastmod>2020-04-04T19:44:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://seymourgao.github.io/categories/%E8%AF%81%E7%9B%91%E4%BC%9A/</loc>
     <lastmod>2020-04-04T19:44:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
