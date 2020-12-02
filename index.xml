@@ -12,6 +12,47 @@
     
     
     <item>
+      <title>新金融工具准则解读</title>
+      <link>https://seymourgao.github.io/post/jianzhi/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://seymourgao.github.io/post/jianzhi/</guid>
+      <description>&lt;h1 id=&#34;新金融工具准则解读&#34;&gt;新金融工具准则解读&lt;/h1&gt;
+&lt;h2 id=&#34;新金融工具准则核心变化&#34;&gt;&lt;strong&gt;新金融工具准则核心变化：&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;1、由四分类改为三分类，减少了金融资产类别；&lt;/p&gt;
+&lt;p&gt;2、减值由“已发生损失法”改为“预期损失法”，以更加及时、足额地计提金融资产减值准备，揭示和防控金融资产信用风险&lt;/p&gt;
+&lt;p&gt;3、修订了套期会计相关的规定，使套期会计更加如实地反映企业的风险管理活动。&lt;/p&gt;
+&lt;h2 id=&#34;金融资产分类和重分类标准&#34;&gt;&lt;strong&gt;金融资产分类和重分类标准：&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;1、改变了以往基于合同特征和持有意图（例如：交易还是持有至到期）对金融资产的分类&lt;/p&gt;
+&lt;p&gt;改为以基于&amp;quot;业务模式&amp;quot;和&amp;quot;合同现金流特征&amp;quot;进行资产分类&lt;/p&gt;
+&lt;p&gt;2、只有当企业管理金融资产的业务模式发生改变时， 才进行重分类。&lt;/p&gt;
+&lt;p&gt;金融负债的分类和重分类标准：&lt;/p&gt;
+&lt;p&gt;企业对所有金融负债不得进行重分类。&lt;/p&gt;
+&lt;h2 id=&#34;嵌入衍生工具&#34;&gt;&lt;strong&gt;嵌入衍生工具&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;1、混合工具的主合同为金融资产的，应将混合工具作为一个整体进行会计处理，不再分拆。&lt;/p&gt;
+&lt;p&gt;2、对于其他混合工具（ 如主合同是金融负债或租赁），新金融工具准则保留了原准则对于衍生工具的要求，仍需评估嵌入衍生工具是否与主合同紧密相关并确定是否分拆。&lt;/p&gt;
+&lt;h2 id=&#34;减值&#34;&gt;减值&lt;/h2&gt;
+&lt;p&gt;1、改变以往基于已发生损失来确定是否计提减值， 代之以基于预期信用损失 （ ECL模型） 计提减值， 将导致信用损失更早地被确认。&lt;/p&gt;
+&lt;p&gt;2、根据信用风险是否显著增加，分别计量整个存续期内预期信用损失（ 阶段 2） 或未来12个月内预期信用损失（ 阶段1） 的金额。&lt;/p&gt;
+&lt;p&gt;3、禁止仅基于最可能的结果或以最佳估计数来估计预期信用损失&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;预期信用损失&lt;!-- raw HTML omitted --&gt;是企业对预计会从某个信用事件中遭受的损失的估计。在新金融工具准则下：&lt;/p&gt;
+&lt;p&gt;1） 首先确认“初始确认后12 个月的预期信用损失”&lt;/p&gt;
+&lt;p&gt;2） 当信用风险显著增加时， 确认“整个存续期的预期信用损失”&lt;/p&gt;
+&lt;p&gt;注意：&lt;/p&gt;
+&lt;p&gt;在初始确认时，对于所购买或源生的已发生信用减值的金融资产不确认减值准
+备。&lt;/p&gt;
+&lt;p&gt;预期信用损失应按 12 个月预期信用损失计量， 除非发生下列情况：&lt;/p&gt;
+&lt;p&gt;1.信用风险自金融工具初始确认后显著增加； 或者&lt;/p&gt;
+&lt;p&gt;2.特殊的计量要求适用。&lt;/p&gt;
+&lt;p&gt;因此，信用风险显著增加是判断确认 12 个月预期信用损失或整个存续期预期信用
+损失的关键。&lt;/p&gt;
+&lt;h2 id=&#34;减值模型&#34;&gt;减值模型&lt;/h2&gt;
+&lt;p&gt;新金融工具准则要求所有在减值范围内的项目都采用单一的减值模型， 相同的减值
+模型适用于所有需要适用减值会计的金融工具。&lt;/p&gt;
+&lt;h2 id=&#34;套期会计&#34;&gt;套期会计&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
       <title>监管规则适用指引-会计类第1号</title>
       <link>https://seymourgao.github.io/post/20/</link>
       <pubDate>Sun, 15 Nov 2020 13:09:17 +0800</pubDate>
